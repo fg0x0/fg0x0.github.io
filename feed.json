@@ -20,8 +20,8 @@
             "id": "https://fg0d.github.io/2021/10/02/hz-2018-final-round",
             "title": "Hz 2018 Final Round",
             "summary": null,
-            "content_text": "A New Postoweqwobiejoqwjeioqwoieqwioeprint(\"/bin/bash\")Enter text in Markdown. Use the toolbar above, or click the ? button for formatting help.",
-            "content_html": "<h2 id=\"a-new-post\">A New Post</h2><h3 id=\"oweqwobiejoqwjeioqwoieqwioe\">oweqwobiejoqwjeioqwoieqwioe</h3><pre><code class=\"language-python3\">print(\"/bin/bash\")</code></pre><p>Enter text in <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>",
+            "content_text": "HZ Final round —Shao Kahn ( write up )Харуул Занги 2018 тэмцээний эцсийн шатны Web exploitation төрлийн эхний даалгавар болох “Shao Kahn” даалгаврын writeup — ыг хүргэж байна.Даалгаврыг нээхэд бидэнд /tmp/shaokahnflag.php гэсэн path өгөгдсөн байсан. Бидэнд өгөгдсөн Url → http://218.100.84.106:8060/ нэвтрээд харахад",
+            "content_html": "<h2 id=\"hz-final-round-shao-kahn--write-up-\">HZ Final round —Shao Kahn ( write up )</h2><p><img src=\"//_posts/hz-18-final-round-1.png\" alt=\"hz-18-final-round-1.png\" /></p><p>Харуул Занги 2018 тэмцээний эцсийн шатны Web exploitation төрлийн эхний даалгавар болох “Shao Kahn” даалгаврын writeup — ыг хүргэж байна.</p><p><img src=\"//_posts/hz-18-final-round-2.png\" alt=\"hz-18-final-round-2.png\" /></p><p>Даалгаврыг нээхэд бидэнд /tmp/shaokahnflag.php гэсэн path өгөгдсөн байсан. Бидэнд өгөгдсөн Url → http://218.100.84.106:8060/ нэвтрээд харахад</p><p><img src=\"//_posts/hz-18-final-round-3.png\" alt=\"hz-18-final-round-3.png\" /></p>",
             "url": "https://fg0d.github.io/2021/10/02/hz-2018-final-round",
             
             
