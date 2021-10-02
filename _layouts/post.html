@@ -1,11 +1,12 @@
 ---
 layout: default
+published: true
 ---
 
 
 <section class="post">
   <div class="flex-row-between">
-	  <a href="{{ site.url }}{{ site.baseurl }}/">« back</a>
+	  <a href="{{ site.url }}{{ site.baseurl }}/">« Буцах</a>
     <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
       <div></div>
     </button>
@@ -25,12 +26,12 @@ layout: default
   <nav class="post-nav">
     {% if page.previous %}
     <a class="post-nav-item post-nav-prev" href="{{ page.previous | relative_url }}">
-      <div class="nav-arrow">Previous</div>
+      <div class="nav-arrow">Өмнөх нийтлэл</div>
       <span class="post-title">{{ page.previous.title }}</span>
     </a>
     {% endif %} {% if page.next %}
     <a class="post-nav-item post-nav-next" href="{{ page.next | relative_url }}">
-      <div class="nav-arrow">Next</div>
+      <div class="nav-arrow">Дараагийн нийтлэл</div>
       <span class="post-title">{{ page.next.title }}</span>
     </a>
     {% endif %}
