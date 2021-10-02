@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-02T14:57:04+02:00</updated>
+ <updated>2021-10-02T15:02:49+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -38,6 +38,71 @@
 
 &lt;p&gt;Online compiler шиг interface -тэй дотор нь echo буюу хэвлэх коммандаар ShaoKahn гэсэн үгийг хэвлэсэн байлаа.&lt;/p&gt;
 
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-4.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Яг энэ үед надад төрсөн санаа байгаагүй бөгөөд эхний өгөгдөлрүүгээ буцаад сэжигтэй зүйл байгаа эсэхийг лавлаж харлаа. &lt;strong&gt;Их удаан харсан xD&lt;/strong&gt; За ерөнхийдөө эхлээд уламжлалт вэбийн шалгах процесуудаа шалгаад үзье гэж бодсон.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-5.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;218.100.84.106 гэсэн бидэнд өгөгдсөн Url — д robots.txt -г оруулж үзэхэд shao.gif зураг гарч ирсэн. Сүүлийн үед вэбийн даалгаврууд forensics ялангуяа steganography — тай хосолсон маягаар их орж ирдэг болсныг санаад зурган доторх зүйлсийг нилээдгүй хайж үзсэн. Даан ч юу ч олдоогүй учир дан вэб бровсер дээрээ шалгалтуудаа хийнэ гэж ойлгосон.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-6.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Үүний дараагаар PHP дээрх compiler байсан мөн бидэнд path , link өгөгдсөн тул эхлээд PHP link-г google-ээс хайлт хийсэн.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-7.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;За хайлтын үр дүнд маш их PHP source code -нуудаас хамгийн байж болох хувилбарыг оллоо.($target , $link) Гэхдээ уг code -нд link ээс утгаа аваад хэвлэх үйлдэл гэх мэт зарим функцүүд байгаагүй учир доошлуулаад хартал.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-8.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;symlink--readlink--linkinfo-гэсэн-3-ойлголт-байлаа-symlink-буюу-symbolic--ыг-үүсгэх-боломжтой-гэдгийг-хараад-судлахаар-шийдэв&quot;&gt;symlink() , readlink() , linkinfo() гэсэн 3 ойлголт байлаа symlink буюу symbolic -ыг үүсгэх боломжтой гэдгийг хараад судлахаар шийдэв.&lt;/h5&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-9.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;symlink--ээс-readlink-н-link--г-унших-болох-кодыг-оллоо&quot;&gt;symlink() -ээс readlink-н $link -г унших болох кодыг оллоо.&lt;/h5&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-10.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;үүний-дараа-өмнөх-хэсэгт-уламжлалт-шалгалт-хийх-үедээ-нэг-зүйлийг-мартсан-байснаа-санаад-хурдан-туршихаар-болов&quot;&gt;Үүний дараа өмнөх хэсэгт уламжлалт шалгалт хийх үедээ нэг зүйлийг мартсан байснаа санаад хурдан туршихаар болов.&lt;/h5&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-10.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;url-дотор-байгаа-файлуудыг-шалгаж-үзтэл-http218100841068060flag-буюу-уг-url-дотор-flag-гэсэн-файл-байгаа-эсэхийг-шалгахад-үр-дүнд-нь-flag-файл-байж-таарсан-x&quot;&gt;Url дотор байгаа файлуудыг шалгаж үзтэл. http://218.100.84.106:8060/flag буюу уг url дотор flag гэсэн файл байгаа эсэхийг шалгахад үр дүнд нь “flag” файл байж таарсан. x))))&lt;/h5&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-11.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;flagphp-файлаа-татаж-авлаа&quot;&gt;flag.php файлаа татаж авлаа.&lt;/h5&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-12.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;php-файлыг-терминал-орчноос-php-flag-коммандаар-ажиллуулах-үед-флаг-маань-гараад-ирэх-нь-тэр-xd&quot;&gt;php файлыг терминал орчноос php flag коммандаар ажиллуулах үед флаг маань гараад ирэх нь тэр xD&lt;/h5&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+ ** HZ{fastcg1pack3t.Really!!}**
+&lt;/p&gt;
+
+&lt;h4 id=&quot;эндээс-дүгнэхэд-ctf--н-даалгаврыг-уншиж-байх-үед-энэ-их-хэцүү-даалгавар--хэцүү-байх-болно-гэх-мэт-тайлбартай-байхад-шууд-хүлээж-аваад-за-би-чадахгүй-юм-байна-гэж-бодоод-хэрэггүй-шүү-xd-ямар-ч-даалгавар-байсан-жижиг-зүйлсийг-нэг-бүрчлэн-шалгаж-үзэх-хэрэгтэй-юм-шиг-санагдсан-за-тэгээд-бүгдэнд-нь-амжилт-хүсье&quot;&gt;Эндээс дүгнэхэд CTF -н даалгаврыг уншиж байх үед энэ их хэцүү даалгавар , хэцүү байх болно гэх мэт тайлбартай байхад шууд хүлээж аваад за би чадахгүй юм байна гэж бодоод хэрэггүй шүү xD Ямар ч даалгавар байсан жижиг зүйлсийг нэг бүрчлэн шалгаж үзэх хэрэгтэй юм шиг санагдсан. За тэгээд бүгдэнд нь амжилт хүсье!&lt;/h4&gt;
 </content>
  </entry>
  
