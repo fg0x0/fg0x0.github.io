@@ -1,0 +1,12 @@
+---
+published: true
+---
+## A New Post
+
+### oweqwobiejoqwjeioqwoieqwioe
+
+```python3
+print("/bin/bash")
+```
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
