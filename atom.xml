@@ -4,13 +4,29 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-02T14:30:02+02:00</updated>
+ <updated>2021-10-02T14:34:30+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
    <email>fantasmdota@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Hz Final Round</title>
+   <link href="https://fg0d.github.io//2021/10/02/hz-final-round"/>
+   <updated>2021-10-02T00:00:00+02:00</updated>
+   <id>https://fg0d.github.io/2021/10/02/hz-final-round</id>
+   <content type="html">&lt;h2 id=&quot;a-new-post&quot;&gt;A New Post&lt;/h2&gt;
+
+&lt;h3 id=&quot;oweqwobiejoqwjeioqwoieqwioe&quot;&gt;oweqwobiejoqwjeioqwoieqwioe&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python3&quot;&gt;print(&quot;/bin/bash&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>2021-10-02-hz-2018-final-round</title>
