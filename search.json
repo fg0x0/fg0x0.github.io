@@ -97,27 +97,11 @@
     } ,
   
     {
-      "title"    : "Disable Jekyll&#39;s default syntax highlighter Rouge",
-      "category" : "",
-      "tags"     : "coding, jekyll",
-      "url"      : "//2018/02/05/disable-jekylls-default-syntax-highlighter-rouge",
-      "date"     : "2018-02-05 00:00:00 +0100"
-    } ,
-  
-    {
       "title"    : "Showing the word count in Jekyll",
       "category" : "",
       "tags"     : "jekyll, coding",
       "url"      : "//2018/01/17/showing-the-word-count",
       "date"     : "2018-01-17 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "Custom 404 page for Jekyll on Github pages",
-      "category" : "",
-      "tags"     : "jekyll, coding",
-      "url"      : "//2017/11/15/custom-404-page-for-jekyll-on-github-pages",
-      "date"     : "2017-11-15 00:00:00 +0100"
     } ,
   
     {
