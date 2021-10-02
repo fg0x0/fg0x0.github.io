@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-02T16:00:31+02:00</updated>
+ <updated>2021-10-02T16:01:25+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -13,66 +13,98 @@
 
  
  <entry>
-   <title>Road To World Top 15</title>
-   <link href="https://fg0d.github.io//2021/10/02/road-to-world-top-15"/>
+   <title>Haruul Zangi 2018 Final Round</title>
+   <link href="https://fg0d.github.io//2021/10/02/haruul-zangi-2018-final-round"/>
    <updated>2021-10-02T00:00:00+02:00</updated>
-   <id>https://fg0d.github.io/2021/10/02/Road-To-World-Top-15</id>
-   <content type="html">&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Аливаа зүйл харагдаж байгаа шигээ амархан байдаггүй…&lt;/code&gt;&lt;/p&gt;
+   <id>https://fg0d.github.io/2021/10/02/Haruul-Zangi-2018-final-round</id>
+   <content type="html">&lt;h2 id=&quot;hz-final-round-shao-kahn--write-up-&quot;&gt;HZ Final round —Shao Kahn ( write up )&lt;/h2&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/htb/htb-1.jpeg&quot; /&gt;
-&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Сайн байцгаана уу. Намайг Түмэнхүүгийн Ялгуун гэдэг. Найзууд маань Эфгоод ( &lt;strong&gt;fg0d&lt;/strong&gt; ) гэж дууддаг. Одоо 22 настай&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Ёс зүйт хакер&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-1.png&quot; /&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Харуул Занги 2018 тэмцээний эцсийн шатны Web exploitation төрлийн эхний даалгавар болох “Shao Kahn” даалгаврын writeup — ыг хүргэж байна.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/htb/htb-2.png&quot; /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-2.png&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Зарим хүмүүс намайг өөрийнхөөрөө дүгнэхдээ энэ залуу юу ч мэдэхгүй байж яасан амбицтай хүүхэд вэ? , гар вэ? гэх мэтээр ярьдаг л даа. Надад яг тулаад хэлж байгаагүй ч далдуур яг ингэж хэлж байхыг зөндөө сонсож байсан. Анх үнэхээр хэцүү байсан. Гэхдээ хувь хүн өөрийгөө хөгжүүлээд , чи өөрийгөө хэн бэ гэдгээ ойлгоод эхэлхээр иймэрхүү яриануудыг огт тоохоо больдог юм байна лээ ххэ. Тэр хүмүүст зориулаад үг хэлээрэй гэвэл ЧАМД БУСДЫН ТӨЛӨӨ ХИЙСЭН ЗҮЙЛ БАЙГАА ЮУ Л ГЭЖ АСУУНА ДАА :)&lt;/p&gt;
+&lt;p&gt;Даалгаврыг нээхэд бидэнд /tmp/shaokahnflag.php гэсэн path өгөгдсөн байсан. Бидэнд өгөгдсөн Url → &lt;a href=&quot;&quot;&gt;http://218.100.84.106:8060/&lt;/a&gt; нэвтрээд харахад&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Би энэ зүйлийг хийх л ёстой , надаас өөр хэн ч хийхгүй гэсэн бодолтойгоор ажиллаж , суралцдаг болсон.&lt;/code&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-3.png&quot; /&gt;
+&lt;/p&gt;
 
-&lt;h4 id=&quot;tаныг-дэлхийн-top-15-болоход-хэрэг-болох-чадварууд&quot;&gt;Tаныг дэлхийн TOP 15 болоход хэрэг болох чадварууд&lt;/h4&gt;
+&lt;p&gt;Online compiler шиг interface -тэй дотор нь echo буюу хэвлэх коммандаар ShaoKahn гэсэн үгийг хэвлэсэн байлаа.&lt;/p&gt;
 
-&lt;p&gt;За бүгдийг нь эхнээс нь тайлбарлаад явах болохоор энгийн зүйлээс эхэлцгээе :)&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-4.png&quot; /&gt;
+&lt;/p&gt;
 
-&lt;p&gt;-Soft Skill
--Hard Skill&lt;/p&gt;
+&lt;p&gt;Яг энэ үед надад төрсөн санаа байгаагүй бөгөөд эхний өгөгдөлрүүгээ буцаад сэжигтэй зүйл байгаа эсэхийг лавлаж харлаа. &lt;strong&gt;Их удаан харсан xD&lt;/strong&gt; За ерөнхийдөө эхлээд уламжлалт вэбийн шалгах процесуудаа шалгаад үзье гэж бодсон.&lt;/p&gt;
 
-&lt;h4 id=&quot;soft-skill&quot;&gt;Soft Skill&lt;/h4&gt;
-&lt;p&gt;Товчхондоо таны дотор байгаа сэтгэлзүй , хандлагыг илэрхийлэх чадвар бөгөөд та ямар нэгэн бэрхшээл , хэцүү даалгавруудтай тулахад даван туулах сэтгэлзүй байгаа эсэх , шинээр суралцах чадвар , аливаа зүйлийг олон талаас харж сэтгэх чадвартай үгүйг тань шалгадаг. Та өөрийнхөө Soft Skill -ээ хэр сайн гэж боддог вэ? Энэхүү нийтлэлийг уншиж байвал таны Soft Skill үнэхээр сайн байна&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-5.png&quot; /&gt;
+&lt;/p&gt;
 
-&lt;h4 id=&quot;hard-skill&quot;&gt;Hard Skill&lt;/h4&gt;
-&lt;p&gt;Товчхондоо таны мэргэжлийн ур чадварыг хэлж байгаан. Та өмнө нь хэлж байсан Soft Skill сайтай бол Hard Skill тань муу ч байсан энэхүү Skill -ээ сайжруулах бүрэн боломжтой гэж хэлж болно. Ерөнхийдөө Soft Skill сайн бол Hard Skill -г хэзээ ч сайжруулж болох юм л даа.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://218.100.84.106&lt;/a&gt; гэсэн бидэнд өгөгдсөн Url — д robots.txt -г оруулж үзэхэд shao.gif зураг гарч ирсэн. Сүүлийн үед вэбийн даалгаврууд forensics ялангуяа steganography — тай хосолсон маягаар их орж ирдэг болсныг санаад зурган доторх зүйлсийг нилээдгүй хайж үзсэн. Даан ч юу ч олдоогүй учир дан вэб бровсер дээрээ шалгалтуудаа хийнэ гэж ойлгосон.&lt;/p&gt;
 
-&lt;h4 id=&quot;1-researching-skill--судлах-чадвар-&quot;&gt;1. Researching Skill ( судлах чадвар )&lt;/h4&gt;
-&lt;p&gt;Researching буюу аливаа зүйлсийг судалж мэдэх чадвараа хөгжүүлснээр олон эх сурвалжаас мэдээллийг ангилж , зөвийг нь хүлээн аваад хурдан хугацаанд боловсруулах боломжтой байдаг. Энэ нь Cyber Security төдийгүй IT салбарын бусад хэсгүүдэд ч гэсэн хамааралтай ойлголт. Шинэ технологи гарлаа та өөрийн систем дээрээ хэрхэн хэрэгжүүлэх вэ? Шинэ мэдээлэл гарлаа энэхүү мэдээлэл таньд хэрэгтэй эсвэл онцын шаардлагагүй мэдээлэл гэдгийг Researching ур чадвараас та олох боломжтой.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-6.png&quot; /&gt;
+&lt;/p&gt;
 
-&lt;h4 id=&quot;2-programming-skill--програмчлалын-чадвар-&quot;&gt;2. Programming Skill ( програмчлалын чадвар )&lt;/h4&gt;
-&lt;p&gt;Cyber Security -д програмчлал хамгийн чухал нь гэж тооцогддог. Та хэрвээ өмнө нь кодчилол талдаа мэдлэгтэй байсан бол Cyber Security салбарлуу ороод шинээр халдлагын програм , хортой код , хамгаалах програм гэх мэт таны төсөөллөөс бүтсэн маш олон зүйлийг хийх боломжтой. Гэхдээ бид бүх програмчлалын хэлийг төгс сурсан байх ёстой юу? Actually not , програмчлалын үндсэн суурьж ойлголтуудыг мэддэг байх. 2020 оны тренд програмчлалын хэлнүүдийг хараад ойлгох , нэмэлт өөрчлөлт оруулах чадвартай болох. Үүн дундаас Assembler , Python , JavaScript гэсэн энэхүү 3 програмчлалын хэлийг заавал мэдэх шаардлагатай гэж миний зүгээс та бүхэнд зөвлөж байна.&lt;/p&gt;
+&lt;p&gt;Үүний дараагаар PHP дээрх compiler байсан мөн бидэнд path , link өгөгдсөн тул эхлээд PHP link-г google-ээс хайлт хийсэн.&lt;/p&gt;
 
-&lt;h4 id=&quot;3-hacker-mindset--хакер-шиг-сэтгэх-&quot;&gt;3. Hacker Mindset ( Хакер шиг сэтгэх )&lt;/h4&gt;
-&lt;p&gt;Хакер шиг сэтгэх энэ үг 2020 онд нилээн тренд болоод байсан. Чи хэрхэн бусад Script Kiddie -нүүдээс ялгарах вэ? Яг зөв !!! Хакер шиг сэтгэх чадвараараа ялгарч болно. Үүнд маш олон зүйл орно л доо гэхдээ хамгийн чухал зүйл нь чи яг өөрийгөө хакерийн оронд тавиад хакер мэтээр төсөөлж бодож сурах хэрэгтэй. Чи зөвхөн нэг л удаа халдлага хийнэ хэрвээ алдвал чи баригдах эрсдэлтэй гэх мэтээр төсөөлөөд үзээрэй. Чи хүний хийсэн хэрэглүүрийг шууд ашиглаад явах уу? Эсвэл өөрөө бүтээсэн хэрэглүүрээ ашиглаад халдлага хийх үү? Хэрвээ чи үнэхээр хакер шиг сэтгэхийг хүсвэл бүх зүйлээ хакерийн түвшинд авч очих шаардлагатай. Өнөөдрийн Google , Github орж source code хуулж тавьдаг чи биш , ард нь ямар процесс явагдаж байгааг ойлгодог , цаашид болох үйл явцыг бүгдийг нь Guessing хийх чадвартай чи болох хэрэгтэй.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-7.png&quot; /&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Мэдээж зөвхөн нэг удаа хийгээд амжилттай болно гэж байхгүй чи 100 , 1000 , 100000 удаа давтаж байж үр дүн гарна гэдгийг санаарай. Та нар чаднаа ❤&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;За хайлтын үр дүнд маш их PHP source code -нуудаас хамгийн байж болох хувилбарыг оллоо.($target , $link) Гэхдээ уг code -нд link ээс утгаа аваад хэвлэх үйлдэл гэх мэт зарим функцүүд байгаагүй учир доошлуулаад хартал.&lt;/p&gt;
 
-&lt;h4 id=&quot;4-problem-solving-skill--асуудлыг-шийдвэрлэх-чадвар-&quot;&gt;4. Problem Solving Skill ( Асуудлыг шийдвэрлэх чадвар )&lt;/h4&gt;
-&lt;p&gt;Асуудлыг шийдвэрлэх чадвар нь таныг Comfort Zone -оос гарахад тусална. Нээх сайхан ажиллаж байсан систем маргааш гэхэд унана , өнөдөөр асуудалгүй байсан үйлдлийн систем чинь чиний жижигхээн алдаанаас болоод тэр чигтээ эвдрэх боломжтой. Тэгэхээр God болохын тулд асуудалтайгаа нүүр тулах хэрэгтэй. Аливаа экспертүүдийн анх эхэлсэн түүхийг сонсоход би анх ийм алдаа гаргаад байгууллага маань хакеруудын халдлагад өртөөд яахаа мэдэхгүй байсан гэх мэт асуудлуудыг ярьдаг. Тэр үед хэцүү байсан ч дараа нь бодоход тэр зүйлээс би маш их зүйлийг сурсан байна гэдгийг та олонтаа сонсож байсан байхаа. Тийм болохоор асуудал үүсвэл түүнээс зайлсхыхгүйгээр нүүр тулаад үзээрэй.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-8.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+symlink() , readlink() , linkinfo() гэсэн 3 ойлголт байлаа symlink буюу symbolic -ыг үүсгэх боломжтой гэдгийг хараад судлахаар шийдэв.
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-9.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+symlink() -ээс readlink-н $link -г унших болох кодыг оллоо.
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-10.jpeg&quot; /&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Өөрийгөө ямар муу чадвартай байснаа ойлгох үеэс эхлээд чи бүрэн утгаараа хөгжиж эхэлдэг.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Үүний дараа өмнөх хэсэгт уламжлалт шалгалт хийх үедээ нэг зүйлийг мартсан байснаа санаад хурдан туршихаар болов.&lt;/p&gt;
 
-&lt;h4 id=&quot;5-sharing-is-caring--халамжлах-нь-хуваалцахаас-эхэлнэ-&quot;&gt;5. Sharing is Caring ( Халамжлах нь хуваалцахаас эхэлнэ )&lt;/h4&gt;
-&lt;p&gt;Миний одоо байгаа fg0d -г бүрдүүлсэн хамгийн том зүйл бол зүгээр л Sharing is Caring. Би зүгээр л хүнд огт муу санахгүйгээр бүх зүйлийг хуваалцахыг хичээдэг. Сошиал амьдрал , Бодит амьдрал дээрээ ч яг адилхан аль болохоор хуваалцахыг хичээдэг. Хэрвээ та өнөөдөр мэдсэн зүйлээ хэн нэгэнд хуваалцлаа гэж бодвол та дахиад шинэ зүйлийг суралцах шаардлага гэдэг зүйл үүсэж эхэлдэг. Энэ маань while(1): давталт шиг үнэн болох хүртлээ үргэлжилсээр байхад чи тасралтгүй хөгжсөөр л байна. Тийм болохоор Залуусаа:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-11.png&quot; /&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;үргэлж бие биедээ хуваалцаж , хайрлаж , хүндэлж байгаарай ❤&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Url дотор байгаа файлуудыг шалгаж үзтэл. &lt;a href=&quot;&quot;&gt;http://218.100.84.106:8060/flag&lt;/a&gt; буюу уг url дотор flag гэсэн файл байгаа эсэхийг шалгахад үр дүнд нь “flag” файл байж таарсан. x))))&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-12.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+flag.php файлаа татаж авлаа.
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-13.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+php файлыг терминал орчноос php flag коммандаар ажиллуулах үед флаг маань гараад ирэх нь тэр xD
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+HZ{fastcg1pack3t.Really!!}
+&lt;/p&gt;
+
+&lt;p&gt;Эндээс дүгнэхэд CTF -н даалгаврыг уншиж байх үед энэ их хэцүү даалгавар , хэцүү байх болно гэх мэт тайлбартай байхад шууд хүлээж аваад за би чадахгүй юм байна гэж бодоод хэрэггүй шүү xD Ямар ч даалгавар байсан жижиг зүйлсийг нэг бүрчлэн шалгаж үзэх хэрэгтэй юм шиг санагдсан. За тэгээд бүгдэнд нь амжилт хүсье!&lt;/p&gt;
 </content>
  </entry>
  
