@@ -49,14 +49,6 @@
     } ,
   
     {
-      "title"    : "Jekyll reading time without plugins",
-      "category" : "",
-      "tags"     : "jekyll, coding",
-      "url"      : "//2018/09/20/jekyll-reading-time-without-plugins",
-      "date"     : "2018-09-20 00:00:00 +0200"
-    } ,
-  
-    {
       "title"    : "Applying the active class for the current page in Jekyll",
       "category" : "",
       "tags"     : "coding, jekyll",
