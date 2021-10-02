@@ -22,6 +22,22 @@
       "tags"     : "netlify, coding, security",
       "url"      : "//2019/05/23/adding-http-response-headers-to-a-netlify-static-website",
       "date"     : "2019-05-23 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Syntax highlight with Rouge in Jekyll",
+      "category" : "",
+      "tags"     : "jekyll, coding",
+      "url"      : "//2018/12/23/syntax-highlight-with-rouge-in-jekyll",
+      "date"     : "2018-12-23 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Page specific assets in Jekyll",
+      "category" : "",
+      "tags"     : "coding, jekyll",
+      "url"      : "//2018/11/12/page-specific-assets-in-jekyll",
+      "date"     : "2018-11-12 00:00:00 +0100"
     } 
   
 ]
