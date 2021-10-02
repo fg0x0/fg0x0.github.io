@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-02T16:01:25+02:00</updated>
+ <updated>2021-10-02T16:01:30+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -17,102 +17,6 @@
    <link href="https://fg0d.github.io//2021/10/02/haruul-zangi-2018-final-round"/>
    <updated>2021-10-02T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/02/Haruul-Zangi-2018-final-round</id>
-   <content type="html">&lt;h2 id=&quot;hz-final-round-shao-kahn--write-up-&quot;&gt;HZ Final round —Shao Kahn ( write up )&lt;/h2&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-1.png&quot; /&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Харуул Занги 2018 тэмцээний эцсийн шатны Web exploitation төрлийн эхний даалгавар болох “Shao Kahn” даалгаврын writeup — ыг хүргэж байна.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-2.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Даалгаврыг нээхэд бидэнд /tmp/shaokahnflag.php гэсэн path өгөгдсөн байсан. Бидэнд өгөгдсөн Url → &lt;a href=&quot;&quot;&gt;http://218.100.84.106:8060/&lt;/a&gt; нэвтрээд харахад&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-3.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Online compiler шиг interface -тэй дотор нь echo буюу хэвлэх коммандаар ShaoKahn гэсэн үгийг хэвлэсэн байлаа.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-4.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Яг энэ үед надад төрсөн санаа байгаагүй бөгөөд эхний өгөгдөлрүүгээ буцаад сэжигтэй зүйл байгаа эсэхийг лавлаж харлаа. &lt;strong&gt;Их удаан харсан xD&lt;/strong&gt; За ерөнхийдөө эхлээд уламжлалт вэбийн шалгах процесуудаа шалгаад үзье гэж бодсон.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-5.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://218.100.84.106&lt;/a&gt; гэсэн бидэнд өгөгдсөн Url — д robots.txt -г оруулж үзэхэд shao.gif зураг гарч ирсэн. Сүүлийн үед вэбийн даалгаврууд forensics ялангуяа steganography — тай хосолсон маягаар их орж ирдэг болсныг санаад зурган доторх зүйлсийг нилээдгүй хайж үзсэн. Даан ч юу ч олдоогүй учир дан вэб бровсер дээрээ шалгалтуудаа хийнэ гэж ойлгосон.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-6.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Үүний дараагаар PHP дээрх compiler байсан мөн бидэнд path , link өгөгдсөн тул эхлээд PHP link-г google-ээс хайлт хийсэн.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-7.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;За хайлтын үр дүнд маш их PHP source code -нуудаас хамгийн байж болох хувилбарыг оллоо.($target , $link) Гэхдээ уг code -нд link ээс утгаа аваад хэвлэх үйлдэл гэх мэт зарим функцүүд байгаагүй учир доошлуулаад хартал.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-8.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-symlink() , readlink() , linkinfo() гэсэн 3 ойлголт байлаа symlink буюу symbolic -ыг үүсгэх боломжтой гэдгийг хараад судлахаар шийдэв.
-&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-9.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-symlink() -ээс readlink-н $link -г унших болох кодыг оллоо.
-&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-10.jpeg&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Үүний дараа өмнөх хэсэгт уламжлалт шалгалт хийх үедээ нэг зүйлийг мартсан байснаа санаад хурдан туршихаар болов.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-11.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Url дотор байгаа файлуудыг шалгаж үзтэл. &lt;a href=&quot;&quot;&gt;http://218.100.84.106:8060/flag&lt;/a&gt; буюу уг url дотор flag гэсэн файл байгаа эсэхийг шалгахад үр дүнд нь “flag” файл байж таарсан. x))))&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-12.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-flag.php файлаа татаж авлаа.
-&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-13.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-php файлыг терминал орчноос php flag коммандаар ажиллуулах үед флаг маань гараад ирэх нь тэр xD
-&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-HZ{fastcg1pack3t.Really!!}
-&lt;/p&gt;
-
-&lt;p&gt;Эндээс дүгнэхэд CTF -н даалгаврыг уншиж байх үед энэ их хэцүү даалгавар , хэцүү байх болно гэх мэт тайлбартай байхад шууд хүлээж аваад за би чадахгүй юм байна гэж бодоод хэрэггүй шүү xD Ямар ч даалгавар байсан жижиг зүйлсийг нэг бүрчлэн шалгаж үзэх хэрэгтэй юм шиг санагдсан. За тэгээд бүгдэнд нь амжилт хүсье!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Hz 2018 Final Round</title>
-   <link href="https://fg0d.github.io//2021/10/02/hz-2018-final-round"/>
-   <updated>2021-10-02T00:00:00+02:00</updated>
-   <id>https://fg0d.github.io/2021/10/02/HZ-2018-final-round</id>
    <content type="html">&lt;h2 id=&quot;hz-final-round-shao-kahn--write-up-&quot;&gt;HZ Final round —Shao Kahn ( write up )&lt;/h2&gt;
 
 &lt;p align=&quot;center&quot;&gt;
