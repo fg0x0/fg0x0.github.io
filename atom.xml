@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-02T15:06:00+02:00</updated>
+ <updated>2021-10-02T15:08:57+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -65,15 +65,15 @@
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-8.png&quot; /&gt;
 &lt;/p&gt;
-
-&lt;p&gt;symlink() , readlink() , linkinfo() гэсэн 3 ойлголт байлаа symlink буюу symbolic -ыг үүсгэх боломжтой гэдгийг хараад судлахаар шийдэв.&lt;/p&gt;
-
+&lt;p align=&quot;center&quot;&gt;
+symlink() , readlink() , linkinfo() гэсэн 3 ойлголт байлаа symlink буюу symbolic -ыг үүсгэх боломжтой гэдгийг хараад судлахаар шийдэв.
+&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-9.png&quot; /&gt;
 &lt;/p&gt;
-
-&lt;p&gt;symlink() -ээс readlink-н $link -г унших болох кодыг оллоо.&lt;/p&gt;
-
+&lt;p align=&quot;center&quot;&gt;
+symlink() -ээс readlink-н $link -г унших болох кодыг оллоо.
+&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-10.png&quot; /&gt;
 &lt;/p&gt;
@@ -81,23 +81,25 @@
 &lt;p&gt;Үүний дараа өмнөх хэсэгт уламжлалт шалгалт хийх үедээ нэг зүйлийг мартсан байснаа санаад хурдан туршихаар болов.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-10.png&quot; /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-11.png&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Url дотор байгаа файлуудыг шалгаж үзтэл. &lt;a href=&quot;&quot;&gt;http://218.100.84.106:8060/flag&lt;/a&gt; буюу уг url дотор flag гэсэн файл байгаа эсэхийг шалгахад үр дүнд нь “flag” файл байж таарсан. x))))&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-11.png&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;flag.php файлаа татаж авлаа.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-12.png&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;php файлыг терминал орчноос php flag коммандаар ажиллуулах үед флаг маань гараад ирэх нь тэр xD&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+flag.php файлаа татаж авлаа.
+&lt;/p&gt;
 
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-13.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+php файлыг терминал орчноос php flag коммандаар ажиллуулах үед флаг маань гараад ирэх нь тэр xD
+&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
 HZ{fastcg1pack3t.Really!!}
 &lt;/p&gt;
