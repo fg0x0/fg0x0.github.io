@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://fg0d.github.io/2018/12/23/syntax-highlight-with-rouge-in-jekyll</loc>
-<lastmod>2018-12-23T00:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>https://fg0d.github.io/2019/05/23/adding-http-response-headers-to-a-netlify-static-website</loc>
-<lastmod>2019-05-23T00:00:00+02:00</lastmod>
-</url>
-<url>
-<loc>https://fg0d.github.io/2019/07/23/staticman-comments-on-a-jekyll-site</loc>
-<lastmod>2019-07-23T00:00:00+02:00</lastmod>
-</url>
-<url>
 <loc>https://fg0d.github.io/2021/10/02/hz-2018-final-round</loc>
 <lastmod>2021-10-02T00:00:00+02:00</lastmod>
 </url>
