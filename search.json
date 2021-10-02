@@ -153,14 +153,6 @@
     } ,
   
     {
-      "title"    : "Jejkyll Headers",
-      "category" : "",
-      "tags"     : "headers, jekyll, css",
-      "url"      : "//2017/01/02/headers-test",
-      "date"     : "2017-01-02 00:00:00 +0100"
-    } ,
-  
-    {
       "title"    : "Top monospaced fonts for coding",
       "category" : "",
       "tags"     : "coding",
