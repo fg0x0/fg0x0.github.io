@@ -9,14 +9,6 @@
     } ,
   
     {
-      "title"    : "2021-10-02-hz-2018-final-round",
-      "category" : "",
-      "tags"     : "typography",
-      "url"      : "//2019/08/31/difference-between-font-formats",
-      "date"     : "2019-08-31 00:00:00 +0200"
-    } ,
-  
-    {
       "title"    : "Staticman comments on a Jekyll site",
       "category" : "",
       "tags"     : "jekyll, coding",
