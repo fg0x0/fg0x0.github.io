@@ -129,22 +129,6 @@
     } ,
   
     {
-      "title"    : "Redirect Jekyll URLs",
-      "category" : "",
-      "tags"     : "coding, jekyll",
-      "url"      : "//2017/11/10/redirect-jekyll-urls",
-      "date"     : "2017-11-10 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "Quotes In Jekyll",
-      "category" : "",
-      "tags"     : "quotes, jekyll",
-      "url"      : "//2017/02/05/quotes-test",
-      "date"     : "2017-02-05 00:00:00 +0100"
-    } ,
-  
-    {
       "title"    : "Creating navigation menu in Jekyll",
       "category" : "",
       "tags"     : "coding, jekyll",
