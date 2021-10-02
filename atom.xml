@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-02T14:52:58+02:00</updated>
+ <updated>2021-10-02T14:54:13+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -21,25 +21,23 @@
 
 &lt;p align=&quot;center&quot;&gt;
 
-
 &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-1.png&quot; /&gt;
 
-Харуул Занги 2018 тэмцээний эцсийн шатны Web exploitation төрлийн эхний даалгавар болох “Shao Kahn” даалгаврын writeup — ыг хүргэж байна.
-
-
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-2.png&quot; /&gt;
-
-
-Даалгаврыг нээхэд бидэнд /tmp/shaokahnflag.php гэсэн path өгөгдсөн байсан. Бидэнд өгөгдсөн Url → http://218.100.84.106:8060/ нэвтрээд харахад
-
-
-&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-3.png&quot; /&gt;
-
-
-Online compiler шиг interface -тэй дотор нь echo буюу хэвлэх коммандаар ShaoKahn гэсэн үгийг хэвлэсэн байлаа.
-
-
 &lt;/p&gt;
+&lt;p&gt;Харуул Занги 2018 тэмцээний эцсийн шатны Web exploitation төрлийн эхний даалгавар болох “Shao Kahn” даалгаврын writeup — ыг хүргэж байна.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-2.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Даалгаврыг нээхэд бидэнд /tmp/shaokahnflag.php гэсэн path өгөгдсөн байсан. Бидэнд өгөгдсөн Url → http://218.100.84.106:8060/ нэвтрээд харахад&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/_posts/hz-18-final-round-3.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Online compiler шиг interface -тэй дотор нь echo буюу хэвлэх коммандаар ShaoKahn гэсэн үгийг хэвлэсэн байлаа.&lt;/p&gt;
+
 </content>
  </entry>
  
