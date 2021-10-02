@@ -105,14 +105,6 @@
     } ,
   
     {
-      "title"    : "Image caption in Jekyll",
-      "category" : "",
-      "tags"     : "jekyll, coding",
-      "url"      : "//2018/02/03/image-captions-in-jekyll",
-      "date"     : "2018-02-03 00:00:00 +0100"
-    } ,
-  
-    {
       "title"    : "Showing the word count in Jekyll",
       "category" : "",
       "tags"     : "jekyll, coding",
