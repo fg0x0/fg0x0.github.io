@@ -1,6 +1,6 @@
 ---
 layout: post
-title: /_posts/2021-10-02-hz-2018-final-round.md
+title: 2021-10-02-hz-2018-final-round.md
 description: What is the difference between various font formats?
 summary: What is the difference between various font formats?
 tags: typography
