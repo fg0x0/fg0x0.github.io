@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## PHP Hacking Techniques
 
@@ -83,7 +83,3 @@ $a = 'a'
 
 > ++$a => 'b'
 > $a+1 => 1
-
-
-
-
