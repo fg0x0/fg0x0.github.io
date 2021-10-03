@@ -1,7 +1,8 @@
 ---
 published: true
 ---
-## HZ Final round —Shao Kahn ( write up )
+### Challenge Type: Web Exploitation
+### Challenge Name: Shao Kahn
 
 > PHP symlink , base64 , Web Exploitation
 
