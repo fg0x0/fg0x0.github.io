@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-03T08:35:47+02:00</updated>
+ <updated>2021-10-03T08:36:22+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -652,6 +652,80 @@ $b == true =&amp;gt; true&lt;/p&gt;
   &lt;p&gt;++$a =&amp;gt; ‘b’
 $a+1 =&amp;gt; 1&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Haruul Zangi 2019 Round 1 Forensics Ldap</title>
+   <link href="https://fg0d.github.io//2021/10/03/haruul-zangi-2019-round-1-forensics-ldap"/>
+   <updated>2021-10-03T00:00:00+02:00</updated>
+   <id>https://fg0d.github.io/2021/10/03/Haruul-Zangi-2019-Round-1-Forensics-LDAP</id>
+   <content type="html">&lt;h2 id=&quot;ldap&quot;&gt;LDAP&lt;/h2&gt;
+&lt;h3 id=&quot;4katsuk1-team&quot;&gt;4katsuk1 TEAM&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Бидэнд verys3cure_ldap.pcapng файл өгөгдсөн  
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://imgbb.com/&quot;&gt;&lt;img src=&quot;https://i.ibb.co/wN03Fqy/ldap1.png&quot; alt=&quot;ldap1&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Packet analyser `Wireshark` програмыг ашиглаж дамжсан хүсэлтүүдийг нь харахад сэжигтэй зүйл ажиглагдаагүй бөгөөд 
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://ibb.co/4J6Dgfn&quot;&gt;&lt;img src=&quot;https://i.ibb.co/ZNnw1Jp/ldap2.png&quot; alt=&quot;ldap2&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Бодлогын нэр маань LDAP бөгөөд үүнийг хараад HTTP биш SMB -тэй холбоотой гэдгийг ойлгоод Object -г Export хийхээр шийдсэн. File --&amp;gt; Export Objects --&amp;gt; SMB
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://ibb.co/ByPLn1c&quot;&gt;&lt;img src=&quot;https://i.ibb.co/6HZYXdr/ldap3.png&quot; alt=&quot;ldap3&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Export хийхэд дотор нь 4 файл байсан бөгөөд файлуудаа Directory дотор хадгалаад нэг бүрчлэн шалгаж эхэлсэн.
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://imgbb.com/&quot;&gt;&lt;img src=&quot;https://i.ibb.co/qpG7KJm/ldap4.png&quot; alt=&quot;ldap4&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Хамгийн сүүлийн файлыг шалгах үед ...
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://ibb.co/VLS7NVY&quot;&gt;&lt;img src=&quot;https://i.ibb.co/Rg0xS2T/ldap5.png&quot; alt=&quot;ldap5&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Дотор нь нэгэн төрлийн Hash гэж хэлж болохоор cpassword=&quot;4y3N3Q0dRFiq+mSGos3BZ2ylwQiyEsoyM8cH+4PUXTnIvVMSier7Lp5t3M4CXu7F&quot; байсан.
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://ibb.co/xHHkh3b&quot;&gt;&lt;img src=&quot;https://i.ibb.co/C22cBWy/ldap6.png&quot; alt=&quot;ldap6&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Тухайн үедээ LDAP -н талаар судалж байгаад Group Policy Preferences password decryption tool -г хайж Kali-Linux дээр байдаг gpp-decrypt tool-г ашигласан бөгөөд дараа нь судлаад үзэхэд online decryption вэбсайт байдаг юм байна лээ ххэ xD
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://ibb.co/FY9H6V6&quot;&gt;&lt;img src=&quot;https://i.ibb.co/M1bBn6n/ldap7.png&quot; alt=&quot;ldap7&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://ibb.co/wS7QcjW&quot;&gt;&lt;img src=&quot;https://i.ibb.co/gSdW4hT/ldap8.png&quot; alt=&quot;ldap8&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://imgbb.com/&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+----------- HZ19{I_am_so_s3cur3} -------------------
+&lt;/p&gt;
 </content>
  </entry>
  
