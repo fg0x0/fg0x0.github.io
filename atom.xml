@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-03T08:45:56+02:00</updated>
+ <updated>2021-10-03T08:46:14+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -652,6 +652,37 @@ $b == true =&amp;gt; true&lt;/p&gt;
   &lt;p&gt;++$a =&amp;gt; ‘b’
 $a+1 =&amp;gt; 1&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Haruul Zangi 2019 Round 1 Web Warmup</title>
+   <link href="https://fg0d.github.io//2021/10/03/haruul-zangi-2019-round-1-web-warmup"/>
+   <updated>2021-10-03T00:00:00+02:00</updated>
+   <id>https://fg0d.github.io/2021/10/03/Haruul-Zangi-2019-Round-1-Web-Warmup</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Web Crawling , Base64&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+![](https://i.imgur.com/QggbaCT.png)
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+![](https://i.imgur.com/syPPIhl.png)
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+![](https://i.imgur.com/Po4xkX6.png)
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+![](https://i.imgur.com/ZkABthx.png)
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+![](https://i.imgur.com/T9eULU3.png)
+&lt;/p&gt;
 </content>
  </entry>
  
