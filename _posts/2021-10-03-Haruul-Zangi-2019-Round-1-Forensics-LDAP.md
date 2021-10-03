@@ -1,6 +1,9 @@
 ---
 published: true
 ---
+### Challenge Type: Forensics
+### Challenge Name: Very Secure LDAP
+
 > LDAP , Wireshark , hash , gpp decryption tool
 
 <p align="center">
