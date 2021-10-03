@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-03T08:53:04+02:00</updated>
+ <updated>2021-10-03T08:53:40+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -822,7 +822,8 @@ Export хийхэд дотор нь 4 файл байсан бөгөөд фай�
    <link href="https://fg0d.github.io//2021/10/02/haruul-zangi-2018-final-round-web-php"/>
    <updated>2021-10-02T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/02/Haruul-Zangi-2018-final-round-Web-PHP</id>
-   <content type="html">&lt;h2 id=&quot;hz-final-round-shao-kahn--write-up-&quot;&gt;HZ Final round —Shao Kahn ( write up )&lt;/h2&gt;
+   <content type="html">&lt;h3 id=&quot;challenge-type-web-exploitation&quot;&gt;Challenge Type: Web Exploitation&lt;/h3&gt;
+&lt;h3 id=&quot;challenge-name-shao-kahn&quot;&gt;Challenge Name: Shao Kahn&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;PHP symlink , base64 , Web Exploitation&lt;/p&gt;
