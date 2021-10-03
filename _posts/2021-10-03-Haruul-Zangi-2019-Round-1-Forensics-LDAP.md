@@ -1,8 +1,7 @@
 ---
 published: true
 ---
-## LDAP
-### 4katsuk1 TEAM
+> LDAP , Wireshark , hash , gpp decryption tool
 
 <p align="center">
 Бидэнд verys3cure_ldap.pcapng файл өгөгдсөн  
