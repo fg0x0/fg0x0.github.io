@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Webshell Hacking Techniques by fg0d
 
@@ -110,5 +110,3 @@ A=fl;B=ag;cat $A$B
 
 ?>  
 ```
-
-
