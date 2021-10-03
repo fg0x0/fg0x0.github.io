@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-03T08:51:59+02:00</updated>
+ <updated>2021-10-03T08:52:26+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -691,7 +691,10 @@ $a+1 =&amp;gt; 1&lt;/p&gt;
    <link href="https://fg0d.github.io//2021/10/03/haruul-zangi-2019-round-1-forensics-ldap"/>
    <updated>2021-10-03T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/03/Haruul-Zangi-2019-Round-1-Forensics-LDAP</id>
-   <content type="html">&lt;blockquote&gt;
+   <content type="html">&lt;h3 id=&quot;challenge-type-forensics&quot;&gt;Challenge Type: Forensics&lt;/h3&gt;
+&lt;h3 id=&quot;challenge-name-very-secure-ldap&quot;&gt;Challenge Name: Very Secure LDAP&lt;/h3&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;LDAP , Wireshark , hash , gpp decryption tool&lt;/p&gt;
 &lt;/blockquote&gt;
 
