@@ -1,9 +1,10 @@
 ---
 published: true
 ---
+### Challenge Type: Web
+### Challenge Name: Warmup
 
-> Web Crawling , Base64
-
+> Web Crawling , Base64 , GoogleBot
 
 <p align="center">
 <img src="https://i.imgur.com/QggbaCT.png">
