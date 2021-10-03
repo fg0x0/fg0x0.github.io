@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-03T08:46:14+02:00</updated>
+ <updated>2021-10-03T08:47:17+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -665,23 +665,23 @@ $a+1 =&amp;gt; 1&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-![](https://i.imgur.com/QggbaCT.png)
+&lt;img src=&quot;https://i.imgur.com/QggbaCT.png&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-![](https://i.imgur.com/syPPIhl.png)
+&lt;img src=&quot;https://i.imgur.com/syPPIhl.png&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-![](https://i.imgur.com/Po4xkX6.png)
+&lt;img src=&quot;https://i.imgur.com/Po4xkX6.png&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-![](https://i.imgur.com/ZkABthx.png)
+&lt;img src=&quot;https://i.imgur.com/ZkABthx.png&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-![](https://i.imgur.com/T9eULU3.png)
+&lt;img src=&quot;https://i.imgur.com/T9eULU3.png&quot; /&gt;
 &lt;/p&gt;
 </content>
  </entry>
