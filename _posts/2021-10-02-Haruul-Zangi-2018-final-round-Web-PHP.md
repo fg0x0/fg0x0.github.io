@@ -3,6 +3,8 @@ published: true
 ---
 ## HZ Final round —Shao Kahn ( write up )
 
+> PHP symlink , base64 , Web Exploitation
+
 <p align="center">
 
 <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hz-2018/hz-18-final-round-1.png">
