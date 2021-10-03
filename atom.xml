@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-03T08:52:26+02:00</updated>
+ <updated>2021-10-03T08:53:04+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -660,8 +660,11 @@ $a+1 =&amp;gt; 1&lt;/p&gt;
    <link href="https://fg0d.github.io//2021/10/03/haruul-zangi-2019-round-1-web-warmup"/>
    <updated>2021-10-03T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/03/Haruul-Zangi-2019-Round-1-Web-Warmup</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Web Crawling , Base64&lt;/p&gt;
+   <content type="html">&lt;h3 id=&quot;challenge-type-web&quot;&gt;Challenge Type: Web&lt;/h3&gt;
+&lt;h3 id=&quot;challenge-name-warmup&quot;&gt;Challenge Name: Warmup&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Web Crawling , Base64 , GoogleBot&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p align=&quot;center&quot;&gt;
