@@ -6,21 +6,21 @@ published: true
 
 
 <p align="center">
-![](https://i.imgur.com/QggbaCT.png)
+<img src="https://i.imgur.com/QggbaCT.png">
 </p>
 
 <p align="center">
-![](https://i.imgur.com/syPPIhl.png)
+<img src="https://i.imgur.com/syPPIhl.png">
 </p>
 
 <p align="center">
-![](https://i.imgur.com/Po4xkX6.png)
+<img src="https://i.imgur.com/Po4xkX6.png">
 </p>
 
 <p align="center">
-![](https://i.imgur.com/ZkABthx.png)
+<img src="https://i.imgur.com/ZkABthx.png">
 </p>
 
 <p align="center">
-![](https://i.imgur.com/T9eULU3.png)
+<img src="https://i.imgur.com/T9eULU3.png">
 </p>
