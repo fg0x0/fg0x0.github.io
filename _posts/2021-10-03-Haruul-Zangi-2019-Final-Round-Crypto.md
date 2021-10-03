@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ### Challenge Type: Crypto + Web Exploitation
 ### Challenge Name: Уртасгасан-Хээээээээээээээээээш
