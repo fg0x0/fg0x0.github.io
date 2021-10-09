@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-09T09:11:43+02:00</updated>
+ <updated>2021-10-09T09:13:20+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -48,27 +48,19 @@
 &lt;p&gt;Халдлага нь 4 үе шаттай явагддаг:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Local&lt;/li&gt;
-  &lt;/ol&gt;
+  &lt;p&gt;Local&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Remote&lt;/li&gt;
-  &lt;/ol&gt;
+  &lt;p&gt;Remote&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;DoS&lt;/li&gt;
-  &lt;/ol&gt;
+  &lt;p&gt;DoS&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;WebApp&lt;/li&gt;
-  &lt;/ol&gt;
+  &lt;p&gt;WebApp&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;local-exploits&quot;&gt;Local Exploits&lt;/h3&gt;
