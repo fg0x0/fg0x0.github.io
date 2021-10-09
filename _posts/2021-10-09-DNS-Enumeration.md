@@ -34,11 +34,11 @@ DNS ажил яаж ажилладаг вэ?
   - [Subdomain Enumeration Tool](#subdomain-enumerate-tool)
     - [massdns](#massdns)
     - [subfinder](#subfinder)
-     
+<br>
 ### Impact
 
 An attacker can use this information to obtain the internal network information if the DNS server is vulnerable to Zone Transfer Attack.
-
+<br>
 ## DNS Records
 
 | Record | Description |
@@ -51,7 +51,7 @@ An attacker can use this information to obtain the internal network information 
 | SOA | Stores admin information about a domain |
 | SRV | Specifies a port for specific services. |
 | PTR | Provides a domain name in reverse-lookups |
-
+<br>
 # Tools
 
 ## dnsenum
@@ -69,7 +69,7 @@ It is a multithread script to enumerate information on a domain and to discover 
 	# dnsenum --dnsserver <DNS_Server_Address> <Domain> -p <Pages> -s <Subdomain_Scrap>
 
 	# dnsenum --dnsserver 192.168.1.100 example.tk -p 10 -s 50
-
+<br>
 ## nslookup
 nslookup  is  a  program  to query Internet domain name servers.  nslookup has two modes: interactive and non-interactive. Interactive mode allows the user to
 query name servers for information about various hosts and domains or to print a list of hosts in a domain.  Non-interactive mode prints just the name and requested information for a host or domain.
@@ -85,7 +85,7 @@ query name servers for information about various hosts and domains or to print a
 	# nslookup -type=NS example.tk 192.168.1.1
 
 	# nslookup -type=MX example.tk 192.168.1.1
-
+<br>
 ## dig
 It performs DNS lookups and displays the answers that are returned from  the  name  server(s)  that were  queried
 
@@ -100,7 +100,7 @@ It performs DNS lookups and displays the answers that are returned from  the  na
 	# dig CNAME example.tk @192.168.1.100
 
 	# dig NS example.tk @192.168.1.100
-
+<br>
 ## host
 It is normally used to convert names to IP addresses and vice versa.
 
@@ -117,7 +117,7 @@ It is normally used to convert names to IP addresses and vice versa.
 	# host -t CNAME example.tk 192.168.1.32
 
 	# host -t PTR 192.168.1.32 192.168.1.32
-
+<br>
 ## DNS Zone Transfer
 
 Zone Transfer can be applicable on Both Forward and Reverse Zone, if zone transfer is allow to all ip. It can be done in three steps.
