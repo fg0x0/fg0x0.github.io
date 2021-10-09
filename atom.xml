@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-09T17:08:10+02:00</updated>
+ <updated>2021-10-09T17:10:45+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -125,32 +125,260 @@
 
 &lt;p&gt;Компьютерийн root сервер гэж нэрлэгддэг компьютерүүд нь дээд түвшний домайн бүрт IP хаягуудыг хадгалах үүрэгтэй. Вэбсайтыг хүссэн тохиолдолд хайлт хийх дараагийн алхамыг тодорхойлохын тулд эхлээд мэдээллийг боловсруулдаг root сервер байна. Дараа нь, домэйн нэр нь ISP- д байрлах Домэйн Нэрийн Шүүгч (DNR) -д зөв IP хаягийг тодорхойлох болно. Эцэст нь, энэ мэдээллийг таны хүссэн төхөөрөмж рүү буцаах болно.&lt;/p&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#dns-enumeration&quot;&gt;DNS Enumeration&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#dns-records&quot;&gt;DNS Records&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tools&quot;&gt;Tools&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#dnsenum&quot;&gt;dnsenum&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#nslookup&quot;&gt;nslookup&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#dig&quot;&gt;dig&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#host&quot;&gt;host&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dns-zone-transfer&quot;&gt;DNS Zone Transfer&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#find-name-server&quot;&gt;Find Name Server&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#find-name-server-ip-address&quot;&gt;Find Name Server IP Address&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#transfer-target-zone&quot;&gt;Transfer Target Zone&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#subdomain-enumerate-tool&quot;&gt;Subdomain Enumeration Tool&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#massdns&quot;&gt;massdns&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#subfinder&quot;&gt;subfinder&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+
+&lt;p&gt;An attacker can use this information to obtain the internal network information if the DNS server is vulnerable to Zone Transfer Attack.&lt;/p&gt;
+
+&lt;h2 id=&quot;dns-records&quot;&gt;DNS Records&lt;/h2&gt;
+
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Tables&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+      &lt;th&gt;Record&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;col 1 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;left-aligned&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;The record that holds the IP address of a domain.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;col 2 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+      &lt;td&gt;CNAME&lt;/td&gt;
+      &lt;td&gt;Forwards one domain or subdomain to another domain, does NOT provide an IP address&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;col 3 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+      &lt;td&gt;MX&lt;/td&gt;
+      &lt;td&gt;Directs mail to an email server&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TXT&lt;/td&gt;
+      &lt;td&gt;Lets an admin store text notes in the record.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NS&lt;/td&gt;
+      &lt;td&gt;Stores the name server for a DNS entry&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SOA&lt;/td&gt;
+      &lt;td&gt;Stores admin information about a domain&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SRV&lt;/td&gt;
+      &lt;td&gt;Specifies a port for specific services.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PTR&lt;/td&gt;
+      &lt;td&gt;Provides a domain name in reverse-lookups&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;h1 id=&quot;tools&quot;&gt;Tools&lt;/h1&gt;
+
+&lt;h2 id=&quot;dnsenum&quot;&gt;dnsenum&lt;/h2&gt;
+&lt;p&gt;It is a multithread script to enumerate information on a domain and to discover non-contiguous IP blocks, Mainly it is ued to enumerate information about subdomins via custom dns server.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;--noreverse           Skip the reverse lookup operations.
+-p, --pages &amp;lt;value&amp;gt;   The number of google search pages to process when scraping names,
+-s, --scrap &amp;lt;value&amp;gt;   The maximum number of subdomains that will be scraped from Google (default 15)
+--dnsserver   &amp;lt;server&amp;gt;
+
+# dnsenum --noreverse example.com
+
+# dnsenum --noreverse -o out.xml example.com
+
+# dnsenum --dnsserver &amp;lt;DNS_Server_Address&amp;gt; &amp;lt;Domain&amp;gt; -p &amp;lt;Pages&amp;gt; -s &amp;lt;Subdomain_Scrap&amp;gt;
+
+# dnsenum --dnsserver 192.168.1.100 example.tk -p 10 -s 50
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;nslookup&quot;&gt;nslookup&lt;/h2&gt;
+&lt;p&gt;nslookup  is  a  program  to query Internet domain name servers.  nslookup has two modes: interactive and non-interactive. Interactive mode allows the user to
+query name servers for information about various hosts and domains or to print a list of hosts in a domain.  Non-interactive mode prints just the name and requested information for a host or domain.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# nslookup &amp;lt;Server_IP/Domain&amp;gt; &amp;lt;DNS_Server_Address&amp;gt;
+
+# nslookup 192.168.1.100 192.168.1.1
+
+# nslookup --type=PTR 192.168.1.100 192.168.1.1
+
+# nslookup --type=A example.tk 192.168.1.1
+
+# nslookup -type=NS example.tk 192.168.1.1
+
+# nslookup -type=MX example.tk 192.168.1.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;dig&quot;&gt;dig&lt;/h2&gt;
+&lt;p&gt;It performs DNS lookups and displays the answers that are returned from  the  name  server(s)  that were  queried&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# dig &amp;lt;domain&amp;gt; @&amp;lt;DNS_Server_Address&amp;gt;
+
+# dig example.tk @192.168.1.100
+
+# dig A example.tk @192.168.1.100
+
+# dig AAAA example.tk @192.168.1.100
+
+# dig CNAME example.tk @192.168.1.100
+
+# dig NS example.tk @192.168.1.100
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;host&quot;&gt;host&lt;/h2&gt;
+&lt;p&gt;It is normally used to convert names to IP addresses and vice versa.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-t specifies the query type
+
+# host -t A &amp;lt;Domain&amp;gt; &amp;lt;DNS_Server_Address&amp;gt;
+
+# host -t A example.tk 192.168.1.32
+
+# host -t NS example.tk 192.168.1.32
+
+# host -t AAAA example.tk 192.168.1.32
+
+# host -t CNAME example.tk 192.168.1.32
+
+# host -t PTR 192.168.1.32 192.168.1.32
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;dns-zone-transfer&quot;&gt;DNS Zone Transfer&lt;/h2&gt;
+
+&lt;p&gt;Zone Transfer can be applicable on Both Forward and Reverse Zone, if zone transfer is allow to all ip. It can be done in three steps.&lt;/p&gt;
+
+&lt;h3 id=&quot;find-name-server&quot;&gt;Find Name Server&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# nslookup -type=ns example.tk 192.168.1.100
+
+# dig NS example.tk @192.168.1.100
+
+# host -t ns example.tk 192.168.1.100
+
+# dig NS zonetransfer.me
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;find-name-server-ip-address&quot;&gt;Find Name Server IP Address&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# nslookup -type=A server.example.tk 192.168.1.100
+
+# dig A server.example.tk @192.168.1.100
+
+# host -t A server.example.tk 192.168.1.100
+
+# dig A nsztm2.digi.ninja
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;transfer-target-zone&quot;&gt;Transfer Target Zone&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# nslookup -type=axfr example.tk 192.168.1.100
+
+# dig AXFR example.tk @192.168.1.100
+
+# host -t AXFR example.tk 192.168.1.100
+
+# dig AXFR zonetransfer.me @nsztm2.digi.ninja
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;subdomain-enumerate-tool&quot;&gt;Subdomain Enumerate Tool&lt;/h1&gt;
+
+&lt;h2 id=&quot;massdns&quot;&gt;massdns&lt;/h2&gt;
+&lt;p&gt;MassDNS is a simple high-performance DNS stub resolver targeting those who seek to resolve a massive amount of domain names in the order of millions or even billions. Without special configuration, MassDNS is capable of resolving over 350,000 names per second using publicly available resolvers.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://github.com/blechschmidt/massdns
+
+# git clone https://github.com/blechschmidt/massdns
+
+# cd massdns/
+
+# make
+
+# cp bin/massdns /usr/bin/
+
+# massdns -h
+-r  --resolvers        Text file containing DNS resolvers.
+-t  --type             Record type to be resolved. (Default: A)
+-w  --outfile          Write to the specified output file instead of standard output.
+-o  --output           Flags for output formatting.
+
+# massdns -r lists/resolvers.txt -t AAAA /dev/shm/domain.txt
+
+# massdns -r lists/resolvers.txt -t NS /dev/shm/domain.txt &amp;gt; /dev/shm/NS.txt
+
+# massdns -r lists/resolvers.txt -t SOA /dev/shm/domain.txt -w /dev/shm/SOA.txt
+
+# massdns -r lists/resolvers.txt -t PTR /dev/shm/domain.txt -w /dev/shm/PTR.txt
+
+# massdns -r lists/resolvers.txt -t CNAME /dev/shm/domain.txt -w /dev/shm/CNAME.txt
+
+# massdns -r lists/resolvers.txt /dev/shm/domain.txt -t A -o S -w /dev/shm/results.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;subfinder&quot;&gt;subfinder&lt;/h2&gt;
+&lt;p&gt;Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources. It has a simple modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://github.com/projectdiscovery/subfinder
+
+# GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+
+# cp /root/go/bin/subfinder /usr/bin/subfinder
+
+# subfinder --help
+-d string        Domain to find subdomains for
+-dL string       File containing list of domains to enumerate
+-nW        Remove Wildcard &amp;amp; Dead Subdomains from output
+-rL string        Text file containing list of resolvers to use
+-silent        Show only subdomains in output
+-o string        File to write output to (optional)
+
+# subfinder -d example.com
+
+# subfinder -d example.com -v
+
+# subfinder -d example.com -all -v
+
+# subfinder -d example.com -recursive
+
+# subfinder -dL /dev/shm/domain.txt
+
+# subfinder -d example.com -nW
+
+# subfinder -d example.com -nW -rL /opt/Tools/massdns/lists/resolvers.txt
+
+# subfinder -d example.com -silent
+
+# subfinder -d example.com -nW -silent -o /dev/shm/result.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </content>
  </entry>
  
