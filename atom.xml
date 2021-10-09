@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-09T08:32:14+02:00</updated>
+ <updated>2021-10-09T08:33:14+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -17,6 +17,23 @@
    <link href="https://fg0d.github.io//2021/10/09/stack-based-bufferoverflow-x86-linux"/>
    <updated>2021-10-09T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/09/Stack-Based-BufferOverflow-x86-Linux</id>
+   <content type="html">&lt;h3 id=&quot;stack-based-bufferoverflow-халдлагын-тухай&quot;&gt;Stack Based BufferOverflow халдлагын тухай&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/stack/stackk.jpeg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Stack дээр суурилсан BufferOverflow нь тодорхой програм хангамжын хувилбарыг тодорхойлсны дараа энэхүү үе халдлагыг хийх шатанд ирдэг. Энэхүү халдлагын зорилго нь олж авсан мэдээлэл болон түүн дээрх задлан шинжилгээнээс гарсан мэдээллийг ашиглан зорилтот системд нэвтрэх боломжит аргуудыг бүрэн олж авах юм.&lt;/p&gt;
+
+&lt;p&gt;Энэхүү халдлагыг хийх болон сайжруулж хөгжүүлэх нь маш төвөгтэй бөгөөд CPU-ийн үйл ажиллагаа , програм хангамжийн зорилгыг гүнзгий ойлгохыг тухайн хакераас шаарддаг. Олон халдлага нь өөр өөр програмчлалын хэл дээр бичигдэх боломжтой. Програмчлалын хамгийн түгээмэл ашигладаг хэлнүүдийн нэг бол Python бөгөөд ойлгоход хялбар , бичихэд хялбар байдаг , богино хугацаанд хөгжүүлэх боломжтой байдаг.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stack Based Buffer Overflow X86 Linux</title>
+   <link href="https://fg0d.github.io//2021/10/09/stack-based-buffer-overflow-x86-linux"/>
+   <updated>2021-10-09T00:00:00+02:00</updated>
+   <id>https://fg0d.github.io/2021/10/09/Stack-Based-Buffer-Overflow-x86-Linux</id>
    <content type="html">&lt;h3 id=&quot;stack-based-bufferoverflow-халдлагын-тухай&quot;&gt;Stack Based BufferOverflow халдлагын тухай&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;

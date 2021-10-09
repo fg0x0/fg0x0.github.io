@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "Stack Based Buffer Overflow X86 Linux",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "//2021/10/09/stack-based-buffer-overflow-x86-linux",
+      "date"     : "2021-10-09 00:00:00 +0200"
+    } ,
+  
+    {
       "title"    : "Xss 2020 Payloads",
       "category" : "",
       "tags"     : "",
