@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-09T09:09:03+02:00</updated>
+ <updated>2021-10-09T09:11:43+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -27,11 +27,19 @@
 
 &lt;p&gt;Эдгээр хэлийг машины код дээр хөрвүүлдэг бөгөөд Java эсвэл Python гэх мэт abstract хэлнүүдээс ялгаатай нь үйлдлийн системийн удирдлагын бүтэц бараг байдаггүй. Буфер халих нь хэт том хэмжээтэй өгөгдлийг хангалттай том биш үйлдлийн системийн санах ойн буферт багтаах боломжийг олгодог алдаанууд бөгөөд ингэснээр энэхүү буфер нь халих болно. Ингэж тооцоололгүй буруу бичсэний үр дүнд ажиллуулсан програмын бусад функцуудын санах ойг дарж бичдэг бөгөөд энэ нь аюулгүй байдлын эмзэг байдлыг үүсгэдэг гэж хэлж болно.&lt;/p&gt;
 
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/stack/buffer.jpg&quot; /&gt;
+&lt;/p&gt;
+
 &lt;p&gt;Ийм програм ихэнхдээ хоёртын файл ( binary file ) нь өгөгдөл хадгалах орчинд хадгалагддаг шууд ажиллуулах боломжтой файл юм. Хоёртын файлуудын хувьд хэд хэдэн өөр формат байдаг. Жишээлбэл, PE формат (PE) нь Microsoft платформ дээр ашиглагддаг гэх мэт.&lt;/p&gt;
 
 &lt;p&gt;Гүйцэтгэх файлуудын өөр нэгэн бидний мэддэг формат бол бараг бүх орчин үеийн UNIX хувилбаруудаар дэмжигддэг  (ELF - Executable and Linking Format) формат юм. Хэрэв ELF формат нь хоёртын файлыг ачаалж , програмыг ажиллуулах юм бол харгалзах програмын кодыг үндсэн санах ойд ачаалж , дараа нь CPU гүйцэтгэнэ гэсэн үг л дээ.&lt;/p&gt;
 
 &lt;p&gt;Програмууд нь эхлүүлэх, гүйцэтгэх явцад өгөгдөл, instruction санах ойд хадгалдаг. Эдгээр нь ажиллуулсан програм хангамж дээр харагдана эсвэл хэрэглэгчийн оруулсан өгөгдөл гэсэн үг юм. Ялангуяа хэрэглэгчийн хүлээгдэж буй оролтын хувьд оролтыг хадгалах замаар урьдчилан буфер үүсгэх зарчимтай байдаг.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/stack/buffer2.png&quot; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Stack дээр суурилсан Санах Ойн Халилтын халдлага нь тодорхой програм хангамжийн хувилбарыг тодорхойлсны дараа энэхүү үе халдлагыг хийх шатанд ирдэг. Энэхүү халдлагын зорилго нь олж авсан мэдээлэл болон түүн дээрх задлан шинжилгээнээс гарсан мэдээллийг ашиглан зорилтот системд нэвтрэх боломжит аргуудыг бүрэн олж авах юм.&lt;/p&gt;
 
@@ -39,20 +47,29 @@
 
 &lt;p&gt;Халдлага нь 4 үе шаттай явагддаг:&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Local&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Remote&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;DoS&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;WebApp&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Local&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Remote&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;DoS&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;WebApp&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;local-exploits&quot;&gt;Local Exploits&lt;/h3&gt;
 
@@ -69,6 +86,25 @@
 &lt;h3 id=&quot;webapp-exploits&quot;&gt;WebApp Exploits&lt;/h3&gt;
 
 &lt;p&gt;Веб аппликейшнруу довтлох төрөл нь вебсайт , системийн эмзэг байдлыг ашиглан өгөгдлийн санруу тушаалыг гүйцэтгэх боломжийг олгодог.&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bowfunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+	&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;strcpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+	&lt;span class=&quot;n&quot;&gt;bowfunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Done.&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </content>
  </entry>
