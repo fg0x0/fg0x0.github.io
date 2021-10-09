@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-09T17:10:45+02:00</updated>
+ <updated>2021-10-09T17:14:07+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -147,62 +147,31 @@
       &lt;li&gt;&lt;a href=&quot;#subdomain-enumerate-tool&quot;&gt;Subdomain Enumeration Tool&lt;/a&gt;
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#massdns&quot;&gt;massdns&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#subfinder&quot;&gt;subfinder&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#subfinder&quot;&gt;subfinder&lt;/a&gt;
+&lt;br /&gt;
+            &lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
-
-&lt;p&gt;An attacker can use this information to obtain the internal network information if the DNS server is vulnerable to Zone Transfer Attack.&lt;/p&gt;
-
+&lt;p&gt;An attacker can use this information to obtain the internal network information if the DNS server is vulnerable to Zone Transfer Attack.
+&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;dns-records&quot;&gt;DNS Records&lt;/h2&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Record&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;A&lt;/td&gt;
-      &lt;td&gt;The record that holds the IP address of a domain.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CNAME&lt;/td&gt;
-      &lt;td&gt;Forwards one domain or subdomain to another domain, does NOT provide an IP address&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MX&lt;/td&gt;
-      &lt;td&gt;Directs mail to an email server&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;TXT&lt;/td&gt;
-      &lt;td&gt;Lets an admin store text notes in the record.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;NS&lt;/td&gt;
-      &lt;td&gt;Stores the name server for a DNS entry&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SOA&lt;/td&gt;
-      &lt;td&gt;Stores admin information about a domain&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SRV&lt;/td&gt;
-      &lt;td&gt;Specifies a port for specific services.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;PTR&lt;/td&gt;
-      &lt;td&gt;Provides a domain name in reverse-lookups&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
+&lt;p&gt;| Record | Description |
+|——–|————-|
+| A | The record that holds the IP address of a domain. |
+| CNAME | Forwards one domain or subdomain to another domain, does NOT provide an IP address |
+| MX | Directs mail to an email server |
+| TXT | Lets an admin store text notes in the record. |
+| NS | Stores the name server for a DNS entry |
+| SOA | Stores admin information about a domain |
+| SRV | Specifies a port for specific services. |
+| PTR | Provides a domain name in reverse-lookups |
+&lt;br /&gt;&lt;/p&gt;
 &lt;h1 id=&quot;tools&quot;&gt;Tools&lt;/h1&gt;
 
 &lt;h2 id=&quot;dnsenum&quot;&gt;dnsenum&lt;/h2&gt;
@@ -219,14 +188,9 @@
 
 # dnsenum --dnsserver &amp;lt;DNS_Server_Address&amp;gt; &amp;lt;Domain&amp;gt; -p &amp;lt;Pages&amp;gt; -s &amp;lt;Subdomain_Scrap&amp;gt;
 
-# dnsenum --dnsserver 192.168.1.100 example.tk -p 10 -s 50
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+# dnsenum --dnsserver 192.168.1.100 example.tk -p 10 -s 50 &amp;lt;br&amp;gt; ## nslookup nslookup  is  a  program  to query Internet domain name servers.  nslookup has two modes: interactive and non-interactive. Interactive mode allows the user to query name servers for information about various hosts and domains or to print a list of hosts in a domain.  Non-interactive mode prints just the name and requested information for a host or domain.
 
-&lt;h2 id=&quot;nslookup&quot;&gt;nslookup&lt;/h2&gt;
-&lt;p&gt;nslookup  is  a  program  to query Internet domain name servers.  nslookup has two modes: interactive and non-interactive. Interactive mode allows the user to
-query name servers for information about various hosts and domains or to print a list of hosts in a domain.  Non-interactive mode prints just the name and requested information for a host or domain.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# nslookup &amp;lt;Server_IP/Domain&amp;gt; &amp;lt;DNS_Server_Address&amp;gt;
+# nslookup &amp;lt;Server_IP/Domain&amp;gt; &amp;lt;DNS_Server_Address&amp;gt;
 
 # nslookup 192.168.1.100 192.168.1.1
 
@@ -236,13 +200,9 @@ query name servers for information about various hosts and domains or to print a
 
 # nslookup -type=NS example.tk 192.168.1.1
 
-# nslookup -type=MX example.tk 192.168.1.1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+# nslookup -type=MX example.tk 192.168.1.1 &amp;lt;br&amp;gt; ## dig It performs DNS lookups and displays the answers that are returned from  the  name  server(s)  that were  queried
 
-&lt;h2 id=&quot;dig&quot;&gt;dig&lt;/h2&gt;
-&lt;p&gt;It performs DNS lookups and displays the answers that are returned from  the  name  server(s)  that were  queried&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# dig &amp;lt;domain&amp;gt; @&amp;lt;DNS_Server_Address&amp;gt;
+# dig &amp;lt;domain&amp;gt; @&amp;lt;DNS_Server_Address&amp;gt;
 
 # dig example.tk @192.168.1.100
 
@@ -252,13 +212,9 @@ query name servers for information about various hosts and domains or to print a
 
 # dig CNAME example.tk @192.168.1.100
 
-# dig NS example.tk @192.168.1.100
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+# dig NS example.tk @192.168.1.100 &amp;lt;br&amp;gt; ## host It is normally used to convert names to IP addresses and vice versa.
 
-&lt;h2 id=&quot;host&quot;&gt;host&lt;/h2&gt;
-&lt;p&gt;It is normally used to convert names to IP addresses and vice versa.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-t specifies the query type
+-t specifies the query type
 
 # host -t A &amp;lt;Domain&amp;gt; &amp;lt;DNS_Server_Address&amp;gt;
 
@@ -270,10 +226,8 @@ query name servers for information about various hosts and domains or to print a
 
 # host -t CNAME example.tk 192.168.1.32
 
-# host -t PTR 192.168.1.32 192.168.1.32
+# host -t PTR 192.168.1.32 192.168.1.32 &amp;lt;br&amp;gt; ## DNS Zone Transfer
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;dns-zone-transfer&quot;&gt;DNS Zone Transfer&lt;/h2&gt;
 
 &lt;p&gt;Zone Transfer can be applicable on Both Forward and Reverse Zone, if zone transfer is allow to all ip. It can be done in three steps.&lt;/p&gt;
 
