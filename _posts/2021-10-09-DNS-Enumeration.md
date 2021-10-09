@@ -34,12 +34,13 @@ DNS ажил яаж ажилладаг вэ?
   - [Subdomain Enumeration Tool](#subdomain-enumerate-tool)
     - [massdns](#massdns)
     - [subfinder](#subfinder)
+    
 <br>
 ### Impact
 
 An attacker can use this information to obtain the internal network information if the DNS server is vulnerable to Zone Transfer Attack.
 <br>
-## DNS Records
+### DNS Records
 
 | Record | Description |
 |--------|-------------|
@@ -52,9 +53,9 @@ An attacker can use this information to obtain the internal network information 
 | SRV | Specifies a port for specific services. |
 | PTR | Provides a domain name in reverse-lookups |
 <br>
-# Tools
+## Tools
 
-## dnsenum
+### dnsenum
 It is a multithread script to enumerate information on a domain and to discover non-contiguous IP blocks, Mainly it is ued to enumerate information about subdomins via custom dns server. 
 
 	--noreverse           Skip the reverse lookup operations.
@@ -70,7 +71,7 @@ It is a multithread script to enumerate information on a domain and to discover 
 
 	# dnsenum --dnsserver 192.168.1.100 example.tk -p 10 -s 50
 <br>
-## nslookup
+### nslookup
 nslookup  is  a  program  to query Internet domain name servers.  nslookup has two modes: interactive and non-interactive. Interactive mode allows the user to
 query name servers for information about various hosts and domains or to print a list of hosts in a domain.  Non-interactive mode prints just the name and requested information for a host or domain.
 
@@ -86,7 +87,7 @@ query name servers for information about various hosts and domains or to print a
 
 	# nslookup -type=MX example.tk 192.168.1.1
 <br>
-## dig
+### dig
 It performs DNS lookups and displays the answers that are returned from  the  name  server(s)  that were  queried
 
 	# dig <domain> @<DNS_Server_Address>
@@ -101,7 +102,7 @@ It performs DNS lookups and displays the answers that are returned from  the  na
 
 	# dig NS example.tk @192.168.1.100
 <br>
-## host
+### host
 It is normally used to convert names to IP addresses and vice versa.
 
 	-t specifies the query type
@@ -118,7 +119,7 @@ It is normally used to convert names to IP addresses and vice versa.
 
 	# host -t PTR 192.168.1.32 192.168.1.32
 <br>
-## DNS Zone Transfer
+### DNS Zone Transfer
 
 Zone Transfer can be applicable on Both Forward and Reverse Zone, if zone transfer is allow to all ip. It can be done in three steps.
 
@@ -152,7 +153,7 @@ Zone Transfer can be applicable on Both Forward and Reverse Zone, if zone transf
 
 	# dig AXFR zonetransfer.me @nsztm2.digi.ninja
 
-# Subdomain Enumerate Tool
+## Subdomain Enumerate Tool
 
 ## massdns
 MassDNS is a simple high-performance DNS stub resolver targeting those who seek to resolve a massive amount of domain names in the order of millions or even billions. Without special configuration, MassDNS is capable of resolving over 350,000 names per second using publicly available resolvers.
@@ -185,7 +186,7 @@ MassDNS is a simple high-performance DNS stub resolver targeting those who seek 
 	
 	# massdns -r lists/resolvers.txt /dev/shm/domain.txt -t A -o S -w /dev/shm/results.txt
 
-## subfinder
+### subfinder
 Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources. It has a simple modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.
 
 	https://github.com/projectdiscovery/subfinder
