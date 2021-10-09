@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "Dns Enumeration",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "//2021/10/09/dns-enumeration",
+      "date"     : "2021-10-09 00:00:00 +0200"
+    } ,
+  
+    {
       "title"    : "Xss 2020 Payloads",
       "category" : "",
       "tags"     : "",

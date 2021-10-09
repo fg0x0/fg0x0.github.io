@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-10-09T17:07:56+02:00</updated>
+ <updated>2021-10-09T17:08:10+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -98,6 +98,59 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dns Enumeration</title>
+   <link href="https://fg0d.github.io//2021/10/09/dns-enumeration"/>
+   <updated>2021-10-09T00:00:00+02:00</updated>
+   <id>https://fg0d.github.io/2021/10/09/DNS-Enumeration</id>
+   <content type="html">&lt;h2 id=&quot;dns-гэж-юу-вэ&quot;&gt;DNS гэж юу вэ?&lt;/h2&gt;
+
+&lt;p&gt;DNS нь хостын нэр болон IP хаяг хоорондын орчуулагч юм.&lt;/p&gt;
+
+&lt;p&gt;Энгийнээр хэлбэл Домэйн Нэрийн Систем (DNS) нь хост нэрийг IP хаяг руу хөрвүүлдэг өгөгдлийн баазуудын цуглуулга юм.&lt;/p&gt;
+
+&lt;p&gt;DNS нь ихэвчлэн интернетийн утасны ном гэж нэрлэдэг бөгөөд энэ нь www.google.com-тэй адил хялбархан нэрлэх хост нэрийг хөрвүүлдэг учраас 216.58.217.46 шиг IP хаяг руу хөрвүүлдэг . Вэб браузерын хаягийн талбарт URL- ыг оруулсны дараа энэ үйл явдлуудын цаана явагддаг.&lt;/p&gt;
+
+&lt;p&gt;DNS (ялангуяа Google гэх мэт хайлтын систем), бидний зочлох вэбсайт бүрийн IP хаягийг оруулснаар интернетэд залгах нь амаргүй байх болно.&lt;/p&gt;
+
+&lt;p&gt;DNS ажил яаж ажилладаг вэ?
+Хэрвээ энэ нь тодорхойгүй байгаа бол DNS хэрхэн ажилладагийг үндсэн ойлголтод тун энгийн юм: вэб хөтөч дээр байрлуулсан вэбсайт болгон (Chrome, Safari, эсвэл Firefox гэх мэт) бүр DNS сервер рүү илгээдэг. энэ нэр зохих IP хаяг руу&lt;/p&gt;
+
+&lt;p&gt;Энэ нь өөр хоорондоо харилцахын тулд ашигладаг IP хаяг бөгөөд тэд www.google.com , www.youtube.com гэх мэт нэрээр мэдээлэл дамжуулж чадахгүй тул бид хялбархан нэр өгдөг. Эдгээр вэбсайтууд бол DNS нь бидний хайж буй хуудсыг нээхэд шаардагдах IP хаягууд руу ойрхон хандах боломжийг бидэнд олгодог.&lt;/p&gt;
+
+&lt;p&gt;Дахин хэлэхэд www.microsoft.com, www. , www.amazon.com болон бусад бүх вэбсайтын нэрийг зөвхөн бидний тав тухтай байдалд зориулж ашигладаг тул тэдгээрийн IP хаягийг санахаас илүүтэйгээр эдгээр нэрсийг санах нь илүү хялбар байдаг.&lt;/p&gt;
+
+&lt;p&gt;Компьютерийн root сервер гэж нэрлэгддэг компьютерүүд нь дээд түвшний домайн бүрт IP хаягуудыг хадгалах үүрэгтэй. Вэбсайтыг хүссэн тохиолдолд хайлт хийх дараагийн алхамыг тодорхойлохын тулд эхлээд мэдээллийг боловсруулдаг root сервер байна. Дараа нь, домэйн нэр нь ISP- д байрлах Домэйн Нэрийн Шүүгч (DNR) -д зөв IP хаягийг тодорхойлох болно. Эцэст нь, энэ мэдээллийг таны хүссэн төхөөрөмж рүү буцаах болно.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 1 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;left-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </content>
  </entry>
  
