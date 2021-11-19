@@ -141,4 +141,8 @@ if __name__ == '__main__':
 
 **Exploit completed** болсоны дараа smbclient-аар орсон nebula хэрэглэгчээр ороод **dir** тушаалыг биелүүлэхэд **flag** хуулагдсан байх болно
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/flag.PNG">
+</p>
+
 
