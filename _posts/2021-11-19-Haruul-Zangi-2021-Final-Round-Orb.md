@@ -11,7 +11,7 @@ published: true
 
 ## Orb
 
-Финалын шатанд баг бүрт тусдаа Docker үүсгэж өгсөн учраас эхлээд SSH-ээр хандаж орох хэрэгтэй болсон
+Финалын шатанд баг бүрт тусдаа **Docker** үүсгэж өгсөн учраас эхлээд SSH-ээр хандаж орох хэрэгтэй болсон
 
 Жишээ нь: **Манай багийн SSH login хэсэг**
 
@@ -39,7 +39,7 @@ root@ip-10-10-20-23:~# **docker ps -a**
 
 root@ip-10-10-20-23:~# **docker exec -it orb /bin/bash**
 
-Орсны дараа файлуудыг нэг бүрчлэн туршиж үзэхэд ProFTPd , Samba гэсэн хоёр танил сервис байхыг харж болно. 
+Орсны дараа файлуудыг нэг бүрчлэн туршиж үзэхэд **ProFTPd** , **Samba** гэсэн хоёр танил сервис байхыг харж болно. 
 
 `Samba буюу SMB нь 445 , 139-р портон дээр ажилладаг файл хуваалцах боломжыг бүрдүүлдэг протокол`
 
@@ -51,7 +51,7 @@ root@ip-10-10-20-23:~# **docker exec -it orb /bin/bash**
 
 Одоо тэгвэл энэхүү хоёр сервисын уялдаа холбоог жаахан ойлгох хэрэг гарна. Эхлээд юуг ашиглаж болох вэ гэхээр:
 
-SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй.
+SMB-г **Enumeration** хийж мэдээлэл цуглуулах хэрэгтэй.
 
 `$IP = '18.162.113.173'`
 
@@ -67,17 +67,21 @@ SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй
 
 гэсэн 3 хэрэглэгч олдлоо
 
-Тэгвэл энэхүү 3 хэрэглэгчрүү ороход бидний Permission хүрэх үү? Access хийж чадах уу гэдгийг шалгахын тулд:
+Тэгвэл энэхүү 3 хэрэглэгчрүү ороход бидний Permission хүрэх үү? **Access** хийж чадах уу гэдгийг шалгахын тулд:
 
 `$IP = '18.162.113.173'`
 
 `smbmap -H 18.162.113.173`
 
-   `print$          Disk      Printer Drivers`
-	`yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )`
-	`gamora          Disk      Where is the orb? ( Admin access )`
-	`nebula          Disk      Why is gamora? ( Free access )`
-	`IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))`
+print$          Disk      Printer Drivers
+
+yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )
+
+gamora          Disk      Where is the orb? ( Admin access )
+
+nebula          Disk      Why is gamora? ( Free access )
+
+IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))
     
 үүнээс харвал **nebula** хэрэглэгчрүү нэвтрэхэд **Free access**-тай буюу **Null session** үүсгэх боломжтой байгааг харж болно.
 
