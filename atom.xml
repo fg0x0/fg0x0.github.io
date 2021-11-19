@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:58:26+01:00</updated>
+ <updated>2021-11-19T15:04:13+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -93,15 +93,37 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smbmap -H 18.162.113.173&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;print$          Disk      Printer Drivers&lt;/p&gt;
-
-&lt;p&gt;yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )&lt;/p&gt;
-
-&lt;p&gt;gamora          Disk      Where is the orb? ( Admin access )&lt;/p&gt;
-
-&lt;p&gt;nebula          Disk      Why is gamora? ( Free access )&lt;/p&gt;
-
-&lt;p&gt;IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;print$&lt;/th&gt;
+      &lt;th&gt;Disk&lt;/th&gt;
+      &lt;th&gt;Printer Drivers&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;yondu&lt;/td&gt;
+      &lt;td&gt;Disk&lt;/td&gt;
+      &lt;td&gt;/samba/ is a nice planet to place orb ( Admin access )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gamora&lt;/td&gt;
+      &lt;td&gt;Disk&lt;/td&gt;
+      &lt;td&gt;Where is the orb? ( Admin access )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nebula&lt;/td&gt;
+      &lt;td&gt;Disk&lt;/td&gt;
+      &lt;td&gt;Why is gamora? ( Free access )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IPC$&lt;/td&gt;
+      &lt;td&gt;IPC&lt;/td&gt;
+      &lt;td&gt;IPC Service (e57944a41e96 server (Samba, Ubuntu))&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;үүнээс харвал &lt;strong&gt;nebula&lt;/strong&gt; хэрэглэгчрүү нэвтрэхэд &lt;strong&gt;Free access&lt;/strong&gt;-тай буюу &lt;strong&gt;Null session&lt;/strong&gt; үүсгэх боломжтой байгааг харж болно.&lt;/p&gt;
 
