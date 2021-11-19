@@ -53,35 +53,35 @@ root@ip-10-10-20-23:~# **docker exec -it orb /bin/bash**
 
 SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй.
 
-`$IP = '18.162.113.173'
+`$IP = '18.162.113.173'`
 
-enum4linux -A $IP`
+`enum4linux -A $IP`
 
 ингэснээр ямар хэрэглэгчид байгаа мэдээллийг , мөн default-аар байгаа бол шууд нууц үгийг олох боломжтой байдаг
 
-`yondu
+`yondu`
 
-gamora
+`gamora`
 
-nebula`
+`nebula`
 
 гэсэн 3 хэрэглэгч олдлоо
 
 Тэгвэл энэхүү 3 хэрэглэгчрүү ороход бидний Permission хүрэх үү? Access хийж чадах уу гэдгийг шалгахын тулд:
 
-`$IP = '18.162.113.173'
+`$IP = '18.162.113.173'`
 
-smbmap -H 18.162.113.173`
+`smbmap -H 18.162.113.173`
 
-`print$          Disk      Printer Drivers
+`print$          Disk      Printer Drivers`
 
-    yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )
+    `yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )`
     
-    gamora          Disk      Where is the orb? ( Admin access )
+    `gamora          Disk      Where is the orb? ( Admin access )`
     
-    nebula          Disk      Why is gamora? ( Free access )
+    `nebula          Disk      Why is gamora? ( Free access )`
     
-    IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))`
+    `IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))`
     
 үүнээс харвал nebula хэрэглэгчрүү нэвтрэхэд Free access-тай буюу Null session үүсгэх боломжтой байгааг харж болно.
 
@@ -95,7 +95,7 @@ smbmap -H 18.162.113.173`
 
 IP-гаар нь скан хийж үзвэл:
 
-`21/tcp   open   ftp         ProFTPD 1.3.5
+`21/tcp   open   ftp         ProFTPD 1.3.5`
 
 ProFTPd 1.3.5 хувилбар байсан бөгөөд Exploit-н хайж үзвэл
 
