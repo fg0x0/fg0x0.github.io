@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:44:29+01:00</updated>
+ <updated>2021-11-19T14:47:31+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -73,27 +73,36 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$IP = '18.162.113.173'
-enum4linux -A $IP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;`$IP = ‘18.162.113.173’&lt;/p&gt;
+
+&lt;p&gt;enum4linux -A $IP`&lt;/p&gt;
 
 &lt;p&gt;ингэснээр ямар хэрэглэгчид байгаа мэдээллийг , мөн default-аар байгаа бол шууд нууц үгийг олох боломжтой байдаг&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yondu
-gamora
-nebula&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;`yondu&lt;/p&gt;
+
+&lt;p&gt;gamora&lt;/p&gt;
+
+&lt;p&gt;nebula`&lt;/p&gt;
 
 &lt;p&gt;гэсэн 3 хэрэглэгч олдлоо&lt;/p&gt;
 
 &lt;p&gt;Тэгвэл энэхүү 3 хэрэглэгчрүү ороход бидний Permission хүрэх үү? Access хийж чадах уу гэдгийг шалгахын тулд:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$IP = '18.162.113.173'
-smbmap -H 18.162.113.173&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;`$IP = ‘18.162.113.173’&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print$          Disk      Printer Drivers
-    yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )
-    gamora          Disk      Where is the orb? ( Admin access )
-    nebula          Disk      Why is gamora? ( Free access )
-    IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;smbmap -H 18.162.113.173`&lt;/p&gt;
+
+&lt;p&gt;`print$          Disk      Printer Drivers&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )
+
+gamora          Disk      Where is the orb? ( Admin access )
+
+nebula          Disk      Why is gamora? ( Free access )
+
+IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;үүнээс харвал nebula хэрэглэгчрүү нэвтрэхэд Free access-тай буюу Null session үүсгэх боломжтой байгааг харж болно.&lt;/p&gt;
 
@@ -107,14 +116,11 @@ smbmap -H 18.162.113.173&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;IP-гаар нь скан хийж үзвэл:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;21/tcp   open   ftp         ProFTPD 1.3.5
-| ftp-anon: Anonymous FTP login allowed (FTP code 230)
-|_Can't get directory listing: PASV IP 172.18.0.7 is not the same as 18.167.20.149
-|_ftp-bounce: server forbids bouncing to low ports &amp;lt;1025&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;`21/tcp   open   ftp         ProFTPD 1.3.5&lt;/p&gt;
 
 &lt;p&gt;ProFTPd 1.3.5 хувилбар байсан бөгөөд Exploit-н хайж үзвэл&lt;/p&gt;
 
-&lt;p&gt;https://www.exploit-db.com/exploits/36742 энэхүү линкээр ороод үзэж болно&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.exploit-db.com/exploits/36742&quot;&gt;Exploit хийх линк&lt;/a&gt; энэхүү линкээр ороод үзэж болно&lt;/p&gt;
 
 &lt;p&gt;Шууд энэхүү exploit-г ажиллуулах боломжгүй бөгөөд үүнийг скрипт болгоод бага зэрэг өөрчлөлт оруулвал&lt;/p&gt;
 
