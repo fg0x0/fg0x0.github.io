@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:56:06+01:00</updated>
+ <updated>2021-11-19T14:58:26+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -27,7 +27,7 @@
 
 &lt;h2 id=&quot;orb&quot;&gt;Orb&lt;/h2&gt;
 
-&lt;p&gt;Финалын шатанд баг бүрт тусдаа Docker үүсгэж өгсөн учраас эхлээд SSH-ээр хандаж орох хэрэгтэй болсон&lt;/p&gt;
+&lt;p&gt;Финалын шатанд баг бүрт тусдаа &lt;strong&gt;Docker&lt;/strong&gt; үүсгэж өгсөн учраас эхлээд SSH-ээр хандаж орох хэрэгтэй болсон&lt;/p&gt;
 
 &lt;p&gt;Жишээ нь: &lt;strong&gt;Манай багийн SSH login хэсэг&lt;/strong&gt;&lt;/p&gt;
 
@@ -55,7 +55,7 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;root@ip-10-10-20-23:~# &lt;strong&gt;docker exec -it orb /bin/bash&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Орсны дараа файлуудыг нэг бүрчлэн туршиж үзэхэд ProFTPd , Samba гэсэн хоёр танил сервис байхыг харж болно.&lt;/p&gt;
+&lt;p&gt;Орсны дараа файлуудыг нэг бүрчлэн туршиж үзэхэд &lt;strong&gt;ProFTPd&lt;/strong&gt; , &lt;strong&gt;Samba&lt;/strong&gt; гэсэн хоёр танил сервис байхыг харж болно.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Samba буюу SMB нь 445 , 139-р портон дээр ажилладаг файл хуваалцах боломжыг бүрдүүлдэг протокол&lt;/code&gt;&lt;/p&gt;
 
@@ -71,7 +71,7 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;Одоо тэгвэл энэхүү хоёр сервисын уялдаа холбоог жаахан ойлгох хэрэг гарна. Эхлээд юуг ашиглаж болох вэ гэхээр:&lt;/p&gt;
 
-&lt;p&gt;SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй.&lt;/p&gt;
+&lt;p&gt;SMB-г &lt;strong&gt;Enumeration&lt;/strong&gt; хийж мэдээлэл цуглуулах хэрэгтэй.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$IP = '18.162.113.173'&lt;/code&gt;&lt;/p&gt;
 
@@ -87,17 +87,21 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;гэсэн 3 хэрэглэгч олдлоо&lt;/p&gt;
 
-&lt;p&gt;Тэгвэл энэхүү 3 хэрэглэгчрүү ороход бидний Permission хүрэх үү? Access хийж чадах уу гэдгийг шалгахын тулд:&lt;/p&gt;
+&lt;p&gt;Тэгвэл энэхүү 3 хэрэглэгчрүү ороход бидний Permission хүрэх үү? &lt;strong&gt;Access&lt;/strong&gt; хийж чадах уу гэдгийг шалгахын тулд:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$IP = '18.162.113.173'&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smbmap -H 18.162.113.173&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print$          Disk      Printer Drivers&lt;/code&gt;
-	&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )&lt;/code&gt;
-	&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gamora          Disk      Where is the orb? ( Admin access )&lt;/code&gt;
-	&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nebula          Disk      Why is gamora? ( Free access )&lt;/code&gt;
-	&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;print$          Disk      Printer Drivers&lt;/p&gt;
+
+&lt;p&gt;yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )&lt;/p&gt;
+
+&lt;p&gt;gamora          Disk      Where is the orb? ( Admin access )&lt;/p&gt;
+
+&lt;p&gt;nebula          Disk      Why is gamora? ( Free access )&lt;/p&gt;
+
+&lt;p&gt;IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))&lt;/p&gt;
 
 &lt;p&gt;үүнээс харвал &lt;strong&gt;nebula&lt;/strong&gt; хэрэглэгчрүү нэвтрэхэд &lt;strong&gt;Free access&lt;/strong&gt;-тай буюу &lt;strong&gt;Null session&lt;/strong&gt; үүсгэх боломжтой байгааг харж болно.&lt;/p&gt;
 
