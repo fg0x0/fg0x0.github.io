@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:13:25+01:00</updated>
+ <updated>2021-11-19T14:18:21+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -41,13 +41,16 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 &lt;br /&gt;
 &lt;a href=&quot;http://final.haruulzangi.mn:19999/&quot;&gt;Онооны самбар харах , флагаа оруулах хэсэг:&lt;/a&gt;
 &lt;br /&gt;
-“Name”:”&lt;strong&gt;AnonSec&lt;/strong&gt;”,
+“Нэвтрэх нэр”:”&lt;strong&gt;AnonSec&lt;/strong&gt;”,
 &lt;br /&gt;
-“Password”:”&lt;strong&gt;5Ft1ELGZOqUI87W4&lt;/strong&gt;”&lt;/p&gt;
+“Нууц үг”:”&lt;strong&gt;5Ft1ELGZOqUI87W4&lt;/strong&gt;”&lt;/p&gt;
 
 &lt;p&gt;Үүний дараа бид challenge бүрийн docker-н мэдээллийг харахын тулд энэхүү тушаалыг ашиглах боломжтой&lt;/p&gt;
 
-&lt;p&gt;root@ip-10-10-20-23:~# &lt;strong&gt;docker ps -a&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;root@ip-10-10-20-23:~# **docker ps -a**&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;e57944a41e96   orb             &quot;/tmp/entrypoint.sh …&quot;   9 hours ago    Up 6 hours   0.0.0.0:21-&amp;gt;21/tcp, :::21-&amp;gt;21/tcp, 0.0.0.0:139-&amp;gt;139/tcp, :::139-&amp;gt;139/tcp, 0.0.0.0:445-&amp;gt;445/tcp, :::445-&amp;gt;445/tcp, 0.0.0.0:2205-&amp;gt;22/tcp, :::2205-&amp;gt;22/tcp   orb&lt;/code&gt;&lt;/p&gt;
+
 </content>
  </entry>
  
