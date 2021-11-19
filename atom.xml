@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:22:55+01:00</updated>
+ <updated>2021-11-19T14:28:46+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -57,8 +57,30 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;Орсны дараа файлуудыг нэг бүрчлэн туршиж үзэхэд ProFTPd , Samba гэсэн хоёр танил сервис байхыг харж болно.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Samba буюу SMB нь 445 , 139-р портон дээр ажилладаг файл хуваалцах боломжыг бүрдүүлдэг протокол&lt;/code&gt; 
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ProFTPd буюу FTP нь 21-р портон дээр ажилладаг файл дамжуулах боломжыг бүрдүүлдэг протокол&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Samba буюу SMB нь 445 , 139-р портон дээр ажилладаг файл хуваалцах боломжыг бүрдүүлдэг протокол&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ProFTPd буюу FTP нь 21-р портон дээр ажилладаг файл дамжуулах боломжыг бүрдүүлдэг протокол&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SMB дээр Null session үүсгэж нууц үг шаардлагүйгээр хандалт хийх боломжтой эмзэг байдал байдаг&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ProFTPd дээр хамгийн сайн мэдэх mod_copy эмзэг байдал байдаг&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Одоо тэгвэл энэхүү хоёр сервисын уялдаа холбоог жаахан ойлгох хэрэг гарна. Эхлээд юуг ашиглаж болох вэ гэхээр:&lt;/p&gt;
+
+&lt;p&gt;SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$IP = '18.162.113.173'&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;enum4linux -A $IP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;ингэснээр ямар хэрэглэгчид байгаа мэдээллийг , мөн default-аар байгаа бол шууд нууц үгийг олох боломжтой байдаг&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yondu
+gamora
+nebula&lt;/code&gt;&lt;/p&gt;
 
 </content>
  </entry>
