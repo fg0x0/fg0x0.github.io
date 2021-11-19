@@ -20,3 +20,7 @@ published: true
 > username : root 
 > password:u3RYQMZDaAg4bEEq6SmLOi
 > Dashboard  credential "Name":"AnonSec","Password":"5Ft1ELGZOqUI87W4"
+
+Үүний дараа бид challenge бүрийн docker-н мэдээллийг харахын тулд энэхүү тушаалыг ашиглах боломжтой
+
+root@ip-10-10-20-23:~# **docker ps -a**
