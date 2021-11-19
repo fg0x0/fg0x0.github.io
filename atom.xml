@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T15:04:13+01:00</updated>
+ <updated>2021-11-19T15:08:12+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -141,7 +141,7 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;ProFTPd 1.3.5 хувилбар байсан бөгөөд Exploit-н хайж үзвэл&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.exploit-db.com/exploits/36742&quot;&gt;Exploit хийх линк&lt;/a&gt; энэхүү линкээр ороод үзэж болно&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.exploit-db.com/exploits/36742&quot;&gt;Exploit хийх линк&lt;/a&gt;  энэхүү линкээр ороод үзэж болно&lt;/p&gt;
 
 &lt;p&gt;Шууд энэхүү exploit-г ажиллуулах боломжгүй бөгөөд үүнийг скрипт болгоод бага зэрэг өөрчлөлт оруулвал&lt;/p&gt;
 
