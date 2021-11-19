@@ -25,9 +25,9 @@ password: **u3RYQMZDaAg4bEEq6SmLOi**
 <br>
 [Онооны самбар харах , флагаа оруулах хэсэг:](http://final.haruulzangi.mn:19999/)
 <br>
-"Нэвтрэх нэр":"**AnonSec**",
+"Нэвтрэх нэр": **AnonSec**
 <br>
-"Нууц үг":"**5Ft1ELGZOqUI87W4**"
+"Нууц үг": **5Ft1ELGZOqUI87W4**
 
 Үүний дараа бид challenge бүрийн docker-н мэдээллийг харахын тулд энэхүү тушаалыг ашиглах боломжтой
 
@@ -74,9 +74,13 @@ SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй
 `smbmap -H 18.162.113.173`
 
 `print$          Disk      Printer Drivers`
-`yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )`    
+
+`yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )`
+
 `gamora          Disk      Where is the orb? ( Admin access )`
+
 `nebula          Disk      Why is gamora? ( Free access )`
+
 `IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))`
     
 үүнээс харвал nebula хэрэглэгчрүү нэвтрэхэд Free access-тай буюу Null session үүсгэх боломжтой байгааг харж болно.
