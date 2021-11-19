@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://fg0d.github.io/2021/11/19/haruul-zangi-2021-round-1-web-screenshot-1",
+            "title": "Haruul Zangi 2021 Round 1 Web Screenshot 1",
+            "summary": null,
+            "content_text": "HZ 2021 Screenshot-1 Web exploit challengeEnter text in Markdown. Use the toolbar above, or click the ? button for formatting help.",
+            "content_html": "<h2 id=\"hz-2021-screenshot-1-web-exploit-challenge\">HZ 2021 Screenshot-1 Web exploit challenge</h2><p>Enter text in <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>",
+            "url": "https://fg0d.github.io/2021/11/19/haruul-zangi-2021-round-1-web-screenshot-1",
+            
+            
+            
+            
+            
+            "date_published": "2021-11-19T00:00:00+01:00",
+            "date_modified": "2021-11-19T00:00:00+01:00",
+            
+                "author":  {
+                "name": "fg0d",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://fg0d.github.io/2021/10/09/stack-based-buffer-overflow-x86-linux",
             "title": "Stack Based Buffer Overflow X86 Linux",
             "summary": null,
