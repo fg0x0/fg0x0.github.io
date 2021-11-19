@@ -23,8 +23,7 @@ SSH username: **root**
 <br>
 password: **u3RYQMZDaAg4bEEq6SmLOi**
 <br>
-Онооны самбар харах , флагаа оруулах хэсэг: 
-http://final.haruulzangi.mn:19999/
+[Онооны самбар харах , флагаа оруулах хэсэг:](http://final.haruulzangi.mn:19999/)
 <br>
 "Name":"**AnonSec**",
 <br>
