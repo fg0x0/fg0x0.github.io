@@ -4,13 +4,24 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T13:55:53+01:00</updated>
+ <updated>2021-11-19T13:55:57+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
    <email>fantasmdota@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Haruul Zangi 2021 Round 1 Web Screenshot 1</title>
+   <link href="https://fg0d.github.io//2021/11/19/haruul-zangi-2021-round-1-web-screenshot-1"/>
+   <updated>2021-11-19T00:00:00+01:00</updated>
+   <id>https://fg0d.github.io/2021/11/19/Haruul-Zangi-2021-Round-1-Web-Screenshot-1</id>
+   <content type="html">&lt;h2 id=&quot;hz-2021-screenshot-1-web-exploit-challenge&quot;&gt;HZ 2021 Screenshot-1 Web exploit challenge&lt;/h2&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Haruul Zangi 2021 Final Round Orb</title>
