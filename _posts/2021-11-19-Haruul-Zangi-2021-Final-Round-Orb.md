@@ -15,11 +15,13 @@ published: true
 
 Жишээ нь: **Манай багийн SSH login хэсэг**
 
-> AnonSec
-> hz-vulbox3.haruulzangi.mn
-> username : root 
-> password:u3RYQMZDaAg4bEEq6SmLOi
-> Dashboard  credential "Name":"AnonSec","Password":"5Ft1ELGZOqUI87W4"
+Багийн нэр: **AnonSec**
+Манай багийн domain: **hz-vulbox3.haruulzangi.mn**
+SSH username: **root**
+password: **u3RYQMZDaAg4bEEq6SmLOi**
+Dashboard  credential 
+"Name":"**AnonSec**",
+"Password":"**5Ft1ELGZOqUI87W4**"
 
 Үүний дараа бид challenge бүрийн docker-н мэдээллийг харахын тулд энэхүү тушаалыг ашиглах боломжтой
 
