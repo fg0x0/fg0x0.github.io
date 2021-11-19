@@ -144,5 +144,3 @@ if __name__ == '__main__':
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/flag.PNG">
 </p>
-
-
