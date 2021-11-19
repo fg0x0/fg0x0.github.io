@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:48:07+01:00</updated>
+ <updated>2021-11-19T14:48:33+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -160,6 +160,10 @@ IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))`
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Exploit completed&lt;/strong&gt; болсоны дараа smbclient-аар орсон nebula хэрэглэгчээр ороод &lt;strong&gt;dir&lt;/strong&gt; тушаалыг биелүүлэхэд &lt;strong&gt;flag&lt;/strong&gt; хуулагдсан байх болно&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/flag.PNG&quot; /&gt;
+&lt;/p&gt;
 
 </content>
  </entry>
