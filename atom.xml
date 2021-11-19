@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:03:00+01:00</updated>
+ <updated>2021-11-19T14:04:54+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -38,6 +38,10 @@ username : root
 password:u3RYQMZDaAg4bEEq6SmLOi
 Dashboard  credential “Name”:”AnonSec”,”Password”:”5Ft1ELGZOqUI87W4”&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;Үүний дараа бид challenge бүрийн docker-н мэдээллийг харахын тулд энэхүү тушаалыг ашиглах боломжтой&lt;/p&gt;
+
+&lt;p&gt;root@ip-10-10-20-23:~# &lt;strong&gt;docker ps -a&lt;/strong&gt;&lt;/p&gt;
 </content>
  </entry>
  
