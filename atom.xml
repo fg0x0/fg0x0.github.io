@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:53:06+01:00</updated>
+ <updated>2021-11-19T14:54:36+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -93,15 +93,11 @@ password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smbmap -H 18.162.113.173&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print$          Disk      Printer Drivers&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gamora          Disk      Where is the orb? ( Admin access )&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nebula          Disk      Why is gamora? ( Free access )&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print$          Disk      Printer Drivers
+	yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )
+	gamora          Disk      Where is the orb? ( Admin access )
+	nebula          Disk      Why is gamora? ( Free access )
+	IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;үүнээс харвал nebula хэрэглэгчрүү нэвтрэхэд Free access-тай буюу Null session үүсгэх боломжтой байгааг харж болно.&lt;/p&gt;
 
