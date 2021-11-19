@@ -17,35 +17,11 @@
 "items": [
     
         {
-            "id": "https://fg0d.github.io/2021/11/19/haruul-zangi-2021-round-1-web-screenshot-1",
-            "title": "Haruul Zangi 2021 Round 1 Web Screenshot 1",
-            "summary": null,
-            "content_text": "HZ 2021 Screenshot-1 Web exploit challengeEnter text in Markdown. Use the toolbar above, or click the ? button for formatting help.",
-            "content_html": "<h2 id=\"hz-2021-screenshot-1-web-exploit-challenge\">HZ 2021 Screenshot-1 Web exploit challenge</h2><p>Enter text in <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>",
-            "url": "https://fg0d.github.io/2021/11/19/haruul-zangi-2021-round-1-web-screenshot-1",
-            
-            
-            
-            
-            
-            "date_published": "2021-11-19T00:00:00+01:00",
-            "date_modified": "2021-11-19T00:00:00+01:00",
-            
-                "author":  {
-                "name": "fg0d",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
             "id": "https://fg0d.github.io/2021/11/19/haruul-zangi-2021-final-round-orb",
             "title": "Haruul Zangi 2021 Final Round Orb",
             "summary": null,
-            "content_text": "HZ 2021 Screenshot-1 Web exploit challenge  ",
-            "content_html": "<h2 id=\"hz-2021-screenshot-1-web-exploit-challenge\">HZ 2021 Screenshot-1 Web exploit challenge</h2><p align=\"center\">  <img src=\"https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png\" /></p>",
+            "content_text": "HZ 2021 Screenshot-1 Web exploit challenge  “Харуул Занги 2021” амжилттай болж өндөрлөлөө. Миний бие энэ жил AnonSec багаас хоёр найзтайгаа хамт оролцсон бөгөөд 1-р шатанд 3-р байранд , 2-р шатанд 5-р байранд орсон билээ. Энэ жил өмнө жилийн тэмцээний нэг сонирхолтой зүйл нь Финалын шат “Attack And Defense” төрлөөр явагдсан. Манай баг төдийлөн өндөр амжилт үзүүлж чадаагүй ч гэсэн өөрсдийн бодсон бодлогоо тайлбартайгаар хүргэх нь зүйтэй болов уу гэж бодлоо.OrbФиналын шатанд баг бүрт тусдаа Docker үүсгэж өгсөн учраас эхлээд SSH-ээр хандаж орох хэрэгтэй болсонЖишээ нь: Манай багийн SSH login хэсэг  AnonSechz-vulbox3.haruulzangi.mnusername : root password:u3RYQMZDaAg4bEEq6SmLOiDashboard  credential “Name”:”AnonSec”,”Password”:”5Ft1ELGZOqUI87W4”",
+            "content_html": "<h1 id=\"hz-2021-screenshot-1-web-exploit-challenge\">HZ 2021 Screenshot-1 Web exploit challenge</h1><p align=\"center\">  <img src=\"https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png\" /></p><p>“Харуул Занги 2021” амжилттай болж өндөрлөлөө. Миний бие энэ жил <strong>AnonSec</strong> багаас хоёр найзтайгаа хамт оролцсон бөгөөд 1-р шатанд 3-р байранд , 2-р шатанд 5-р байранд орсон билээ. Энэ жил өмнө жилийн тэмцээний нэг сонирхолтой зүйл нь Финалын шат “Attack And Defense” төрлөөр явагдсан. Манай баг төдийлөн өндөр амжилт үзүүлж чадаагүй ч гэсэн өөрсдийн бодсон бодлогоо тайлбартайгаар хүргэх нь зүйтэй болов уу гэж бодлоо.</p><h2 id=\"orb\">Orb</h2><p>Финалын шатанд баг бүрт тусдаа Docker үүсгэж өгсөн учраас эхлээд SSH-ээр хандаж орох хэрэгтэй болсон</p><p>Жишээ нь: <strong>Манай багийн SSH login хэсэг</strong></p><blockquote>  <p>AnonSechz-vulbox3.haruulzangi.mnusername : root password:u3RYQMZDaAg4bEEq6SmLOiDashboard  credential “Name”:”AnonSec”,”Password”:”5Ft1ELGZOqUI87W4”</p></blockquote>",
             "url": "https://fg0d.github.io/2021/11/19/haruul-zangi-2021-final-round-orb",
             
             
