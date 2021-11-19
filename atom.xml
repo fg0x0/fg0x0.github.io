@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-19T14:04:54+01:00</updated>
+ <updated>2021-11-19T14:07:55+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -31,13 +31,13 @@
 
 &lt;p&gt;Жишээ нь: &lt;strong&gt;Манай багийн SSH login хэсэг&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;AnonSec
-hz-vulbox3.haruulzangi.mn
-username : root 
-password:u3RYQMZDaAg4bEEq6SmLOi
-Dashboard  credential “Name”:”AnonSec”,”Password”:”5Ft1ELGZOqUI87W4”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Багийн нэр: &lt;strong&gt;AnonSec&lt;/strong&gt;
+Манай багийн domain: &lt;strong&gt;hz-vulbox3.haruulzangi.mn&lt;/strong&gt;
+SSH username: &lt;strong&gt;root&lt;/strong&gt;
+password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
+Dashboard  credential 
+“Name”:”&lt;strong&gt;AnonSec&lt;/strong&gt;”,
+“Password”:”&lt;strong&gt;5Ft1ELGZOqUI87W4&lt;/strong&gt;”&lt;/p&gt;
 
 &lt;p&gt;Үүний дараа бид challenge бүрийн docker-н мэдээллийг харахын тулд энэхүү тушаалыг ашиглах боломжтой&lt;/p&gt;
 
