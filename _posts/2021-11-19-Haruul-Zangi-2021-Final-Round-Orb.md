@@ -73,15 +73,12 @@ SMB-г **Enumeration** хийж мэдээлэл цуглуулах хэрэгт
 
 `smbmap -H 18.162.113.173`
 
-print$          Disk      Printer Drivers
-
-yondu           Disk      /samba/ is a nice planet to place orb ( Admin access )
-
-gamora          Disk      Where is the orb? ( Admin access )
-
-nebula          Disk      Why is gamora? ( Free access )
-
-IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))
+|print$          |Disk      |Printer Drivers|
+|----------------|----------|---------------|
+|yondu           |Disk      |/samba/ is a nice planet to place orb ( Admin access )|
+|gamora          |Disk      |Where is the orb? ( Admin access )|
+|nebula          |Disk      |Why is gamora? ( Free access )|
+|IPC$            |IPC       |IPC Service (e57944a41e96 server (Samba, Ubuntu))|
     
 үүнээс харвал **nebula** хэрэглэгчрүү нэвтрэхэд **Free access**-тай буюу **Null session** үүсгэх боломжтой байгааг харж болно.
 
