@@ -79,7 +79,7 @@ SMB-г Enumeration хийж мэдээлэл цуглуулах хэрэгтэй
 	nebula          Disk      Why is gamora? ( Free access )
 	IPC$            IPC       IPC Service (e57944a41e96 server (Samba, Ubuntu))`
     
-үүнээс харвал nebula хэрэглэгчрүү нэвтрэхэд Free access-тай буюу Null session үүсгэх боломжтой байгааг харж болно.
+үүнээс харвал **nebula** хэрэглэгчрүү нэвтрэхэд **Free access**-тай буюу **Null session** үүсгэх боломжтой байгааг харж болно.
 
 `smbclient //18.162.113.173/nebula`
 
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     main()
 ```
 
-**Exploit completed** болсоны дараа smbclient-аар орсон nebula хэрэглэгчээр ороод **dir** тушаалыг биелүүлэхэд **flag** хуулагдсан байх болно
+**Exploit completed** болсоны дараа **smbclient**-аар орсон **nebula** хэрэглэгчээр ороод **dir** тушаалыг биелүүлэхэд **flag** хуулагдсан байх болно
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/flag.PNG">
