@@ -123,41 +123,44 @@ Script маань амжилттай ажилласан эсэхийг стат�
 [webhook](https://webhook.site/) дээр орж ирсэн хүсэлтийн хариуг харвал нийтдээ 2 `response` ирсэн байна. Эхний хариу нь миний өөрийн Session ID болон мэдээллийг буцааж харуулсан байгаа харж болно 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-13.PNG">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-13-backup.PNG">
 </p>
 
-Дараагийн хариуг харвал админы
+Дараагийн хариуг харвал админ хэрэглэгчийн `Cookie` утга байгааг олж харна. Бид вебсайтын цоорхойг ашиглаж ард нь ажиллаж байгаа админ хэрэглэгчийн Session-г амжилттай Hijacking хийчихлээ. 
+
+Screenshot-1 флаг: `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG">
 </p>
 
-
+За дараагийн үргэлжлэл хэсэгрүүгээ орж харвал саяны Hijacking хийсэн хэсэгт `http://screen/god-wisper.php` гэсэн `referer` байгааг харж болно. Энэ мэдээж бидэнд маш том `hint` өгч байна
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-15.PNG">
 </p>
 
-
+Веб хөтөчийнхөө Proxy-г асааж байгаад туршилт хийж үзье
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-16.PNG">
 </p>
 
-
+Хамгийн эхний `index.php`-д харагдаж байсан форм дотор тест мэдээллийг оруулаад үзсэн
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-17.PNG">
 </p>
 
-
+Оруулж байх үедээ хүсэлтийг нь дундаас нь барьж аваад харвал `url=hellotest` гэж дамжиж байна. Referer нь: `http://127.0.0.1:1337` буюу өөрийн локал хаяг байв. 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-18.PNG">
 </p>
 
-
+Үүнийг олсон мэдээллээрээ өөрчлөөд үзвэл `http://screen/admin.php`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-19.PNG">
 </p>
+
