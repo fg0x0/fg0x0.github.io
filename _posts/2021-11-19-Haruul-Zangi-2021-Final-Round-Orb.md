@@ -3,7 +3,8 @@ published: true
 ---
 # HZ 2021 Final Round Orb
 <p align="center">
-Зочилсон хүний тоо 👉 ![Visitor Count](https://profile-counter.glitch.me/{fg0d}/count.svg)
+Зочилсон хүний тоо 👉 
+![Visitor Count](https://profile-counter.glitch.me/{fg0d}/count.svg)
 </p>
 
 <p align="center">
