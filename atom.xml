@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T20:13:42+01:00</updated>
+ <updated>2021-11-20T20:17:06+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -144,7 +144,7 @@ WE CAN FREE TO FLY
 
 &lt;p&gt;Дараагийн хариуг харвал админ хэрэглэгчийн &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cookie&lt;/code&gt; утга байгааг олж харна. Бид вебсайтын цоорхойг ашиглаж ард нь ажиллаж байгаа админ хэрэглэгчийн Session-г амжилттай Hijacking хийчихлээ.&lt;/p&gt;
 
-&lt;p&gt;Screenshot-1 флаг: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Screenshot-1 флаг:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG&quot; /&gt;
@@ -156,7 +156,7 @@ WE CAN FREE TO FLY
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-15.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Веб хөтөчийнхөө Proxy-г асааж байгаад туршилт хийж үзье&lt;/p&gt;
+&lt;p&gt;Веб хөтөчийнхөө &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Proxy&lt;/code&gt;-г асааж байгаад туршилт хийж үзье&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-16.PNG&quot; /&gt;
@@ -180,7 +180,9 @@ WE CAN FREE TO FLY
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-19.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Эцэст нь бид Screenshot-2 даалгаврын флагыг оллоо&lt;/p&gt;
+&lt;p&gt;Эцэст нь бид &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Screenshot-2&lt;/code&gt; даалгаврын флагыг оллоо&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Screenshot-2 флаг:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HZ{2440a6c77ef002838ca441be4a5ec97d}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/flagg.jpg&quot; /&gt;
