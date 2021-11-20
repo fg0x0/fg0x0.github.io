@@ -4,6 +4,13 @@ published: true
 `Аливаа зүйл харагдаж байгаа шигээ амархан байдаггүй…`
 
 <p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{2021-10-02-Boost-Your-Hacking-Skill-Preparation-Guide}/count.svg">
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/htb/htb-1.jpeg">
 </p>
 
