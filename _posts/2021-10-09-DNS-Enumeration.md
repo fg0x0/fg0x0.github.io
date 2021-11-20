@@ -1,6 +1,13 @@
 ---
 published: true
 ---
+<p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{fg0d}/count.svg">
+</p>
+
 ## DNS гэж юу вэ?
 
 DNS нь хостын нэр болон IP хаяг хоорондын орчуулагч юм.
