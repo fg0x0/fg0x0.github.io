@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T19:51:48+01:00</updated>
+ <updated>2021-11-20T19:53:11+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -94,13 +94,13 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-7.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Ер нь бол янз бүрээр л давах боломжтой жишээ нь: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;scr&amp;lt;script&amp;gt;ipt&amp;gt; , &amp;lt;sscriptcript&amp;gt;&lt;/code&gt; гэх мэт миний хувьд яаж шалгалтыг давсан вэ гэхээр &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;scRipt&amp;gt;&lt;/code&gt; буюу дан ганц &lt;strong&gt;R&lt;/strong&gt; үсгийг томоор бичихэд л болно гэж үзсэн&lt;/p&gt;
+&lt;p&gt;Ер нь бол янз бүрээр л давах боломжтой жишээ нь: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;scr&amp;lt;script&amp;gt;ipt&amp;gt; , &amp;lt;sscriptcript&amp;gt;&lt;/code&gt; гэх мэт миний хувьд яаж шалгалтыг давсан вэ гэхээр &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;scRipt&amp;gt;&lt;/code&gt; буюу дан ганц &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R&lt;/code&gt; үсгийг томоор бичихэд л болно гэж үзсэн&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-8.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Тийм ээ. Скрипт маань амжилттай ажиллаж &lt;strong&gt;pwned by fg0d&lt;/strong&gt; гэсэн &lt;strong&gt;alert&lt;/strong&gt; мэдээллийг бидэнд харууллаа&lt;/p&gt;
+&lt;p&gt;Тийм ээ. Скрипт маань амжилттай ажиллаж &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pwned by fg0d&lt;/code&gt; гэсэн &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alert&lt;/code&gt; мэдээллийг бидэнд харууллаа&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-9.PNG&quot; /&gt;
@@ -118,7 +118,7 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/dura.gif&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Хэрэглэгч талаас буюу бид нар тухайн вебсайтын эмзэг байдлаар дамжуулж ард нь ажиллаж байгаа серверлүү хортой хүсэлт илгээнэ. Илгээхдээ дотор нь буцаад холбогдох ямар нэгэн хаяг тавьж өгөх шаардлага үүсэж байгаа биз тэгэхгүй бол эзэнгүй юм шиг таны хортой код хаашаа явахаа мэдэхгүй хүсэлтээ тухайн хэсэгтээ л дамжуулаад байна гэсэн үг л дээ. За тэгэхээр буцаад ирэх хүсэлтийг нь барьж авахын тулд онлайн &lt;strong&gt;webhook&lt;/strong&gt; ашиглаж барих боломжтой эсвэл &lt;strong&gt;requestb.in&lt;/strong&gt; ч юм уу тэ хүссэнээрээ л хий&lt;/p&gt;
+&lt;p&gt;Хэрэглэгч талаас буюу бид нар тухайн вебсайтын эмзэг байдлаар дамжуулж ард нь ажиллаж байгаа серверлүү хортой хүсэлт илгээнэ. Илгээхдээ дотор нь буцаад холбогдох ямар нэгэн хаяг тавьж өгөх шаардлага үүсэж байгаа биз тэгэхгүй бол эзэнгүй юм шиг таны хортой код хаашаа явахаа мэдэхгүй хүсэлтээ тухайн хэсэгтээ л дамжуулаад байна гэсэн үг л дээ. За тэгэхээр буцаад ирэх хүсэлтийг нь барьж авахын тулд онлайн &lt;img src=&quot;https://webhook.site/&quot; alt=&quot;webhook&quot; /&gt; ашиглаж барих боломжтой эсвэл &lt;a href=&quot;https://pipedream.com/requestbin&quot;&gt;requestb.in&lt;/a&gt; ч юм уу тэ хүссэнээрээ л хий&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG&quot; /&gt;
