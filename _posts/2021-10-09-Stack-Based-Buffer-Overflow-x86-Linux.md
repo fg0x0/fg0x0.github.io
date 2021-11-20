@@ -2,6 +2,12 @@
 published: true
 ---
 ## Stack Based санах ойн халилт халдлагын тухай
+<p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{fg0d}/count.svg">
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/stack/stackk.jpeg">
@@ -74,6 +80,3 @@ int main(int argc, char *argv[]) {
 	return 1;
 }
 ```
-
-
-
