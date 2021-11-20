@@ -6,7 +6,7 @@ published: true
 🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
 </p>
 <p align="center">
-  <img src="https://profile-counter.glitch.me/{fg0d}/count.svg">
+  <img src="https://profile-counter.glitch.me/{2021-10-09-Stack-Based-Buffer-Overflow-x86-Linux}/count.svg">
 </p>
 
 <p align="center">
