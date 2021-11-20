@@ -66,7 +66,7 @@ published: true
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-5.PNG">
 </p>
 
-Хамгийн энгийн `XSS payload`-г бичиж тест хийхээр шийдэв. Хэрвээ `payload` маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь `replace` хийх байгааг хайж олох шаардлага үүснэ
+Хамгийн энгийн `XSS payload`-г бичиж тест хийхээр шийдэв. Хэрвээ `payload` маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь `replace` хийж байгааг хайж олох шаардлага үүснэ
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG">
