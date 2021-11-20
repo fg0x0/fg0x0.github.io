@@ -2,10 +2,11 @@
 published: true
 ---
 # HZ 2021 Final Round Orb
-<p align="center">
-Зочилсон хүний тоо 👉 
-</p>
-![Visitor Count](https://profile-counter.glitch.me/{fg0d}/count.svg)
+<div class="views">
+    <span class="views">
+        <img src="https://visitor-badge.glitch.me/badge?page_id={{ .Permalink }}" alt="Views"/>
+    </span>
+</div>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png">
