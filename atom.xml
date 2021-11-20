@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T07:19:34+01:00</updated>
+ <updated>2021-11-20T07:20:08+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -1201,6 +1201,13 @@ $a+1 =&amp;gt; 1&lt;/p&gt;
    <id>https://fg0d.github.io/2021/10/03/Haruul-Zangi-2019-Round-1-Web-Warmup</id>
    <content type="html">&lt;h3 id=&quot;challenge-type-web&quot;&gt;Challenge Type: Web&lt;/h3&gt;
 &lt;h3 id=&quot;challenge-name-warmup&quot;&gt;Challenge Name: Warmup&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://profile-counter.glitch.me/{2021-10-03-Haruul-Zangi-2019-Round-1-Web-Warmup}/count.svg&quot; /&gt;
+&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Web Crawling , Base64 , GoogleBot&lt;/p&gt;
