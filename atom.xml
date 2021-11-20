@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T19:41:39+01:00</updated>
+ <updated>2021-11-20T19:42:05+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -70,28 +70,44 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-3.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;Юу ч гэсэн эхний ээлжинд хамаагүй утга оруулаад үзье гэж бодсон. Магадгүй NoSQL , PHP-тэй холбоотой Bug байх ч юм билүү тэ хэн мэдлээ ххэ&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-4.PNG&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;Мэдээж хүлээлт өндөр байгаагүй учраас &lt;strong&gt;Hello&lt;/strong&gt; гэсэн үгийг маань хэвлэж байсан. Өөр аргаар л үзье даа&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-5.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;Хамгийн энгийн XSS payload-г бичиж тест хийхээр шийдэв. Хэрвээ payload маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь &lt;strong&gt;replace&lt;/strong&gt; хийх байгааг хайж олох шаардлага үүснэ&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;Үр дүнд: &lt;script&gt;alert(1);&lt;/script&gt; –&amp;gt; &amp;lt;&amp;gt;alert(1); гэсэн л хариу ирэв. Мэдээж скрипт маань бүрэн ажиллаагүй учраас энэхүү &lt;strong&gt;replace&lt;/strong&gt; -г &lt;strong&gt;bypass&lt;/strong&gt; хийх аргаа бодож эхлэв&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-7.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;Ер нь бол янз бүрээр л давах боломжтой жишээ нь: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;scr&amp;lt;script&amp;gt;ipt&amp;gt; , &amp;lt;sscriptcript&amp;gt;&lt;/code&gt; гэх мэт миний хувьд яаж шалгалтыг давсан вэ гэхээр &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;scRipt&amp;gt;&lt;/code&gt; буюу дан ганц &lt;strong&gt;R&lt;/strong&gt; үсгийг томоор бичихэд л болно гэж үзсэн&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-8.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;Тийм ээ. Скрипт маань амжилттай ажиллаж &lt;strong&gt;pwned by fg0d&lt;/strong&gt; гэсэн &lt;strong&gt;alert&lt;/strong&gt; мэдээллийг бидэнд харууллаа&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-9.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/dura.gif&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
