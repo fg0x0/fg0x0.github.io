@@ -128,7 +128,7 @@ Script маань амжилттай ажилласан эсэхийг стат�
 
 Дараагийн хариуг харвал админ хэрэглэгчийн `Cookie` утга байгааг олж харна. Бид вебсайтын цоорхойг ашиглаж ард нь ажиллаж байгаа админ хэрэглэгчийн Session-г амжилттай Hijacking хийчихлээ. 
 
-Screenshot-1 флаг: `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
+**Screenshot-1 флаг:** `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG">
@@ -140,7 +140,7 @@ Screenshot-1 флаг: `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-15.PNG">
 </p>
 
-Веб хөтөчийнхөө Proxy-г асааж байгаад туршилт хийж үзье
+Веб хөтөчийнхөө `Proxy`-г асааж байгаад туршилт хийж үзье
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-16.PNG">
@@ -164,7 +164,9 @@ Screenshot-1 флаг: `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-19.PNG">
 </p>
 
-Эцэст нь бид Screenshot-2 даалгаврын флагыг оллоо
+Эцэст нь бид `Screenshot-2` даалгаврын флагыг оллоо
+
+**Screenshot-2 флаг:** `HZ{2440a6c77ef002838ca441be4a5ec97d}`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/flagg.jpg">
