@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T07:12:32+01:00</updated>
+ <updated>2021-11-20T07:12:41+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -293,7 +293,14 @@ SSH password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
    <link href="https://fg0d.github.io//2021/10/09/dns-enumeration"/>
    <updated>2021-10-09T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/09/DNS-Enumeration</id>
-   <content type="html">&lt;h2 id=&quot;dns-гэж-юу-вэ&quot;&gt;DNS гэж юу вэ?&lt;/h2&gt;
+   <content type="html">&lt;p align=&quot;center&quot;&gt;
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://profile-counter.glitch.me/{fg0d}/count.svg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;dns-гэж-юу-вэ&quot;&gt;DNS гэж юу вэ?&lt;/h2&gt;
 
 &lt;p&gt;DNS нь хостын нэр болон IP хаяг хоорондын орчуулагч юм.&lt;/p&gt;
 
