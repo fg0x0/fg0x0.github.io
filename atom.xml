@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T19:53:11+01:00</updated>
+ <updated>2021-11-20T19:53:52+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -88,7 +88,7 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Үр дүнд: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;alert(1);&amp;lt;/script&amp;gt;&lt;/code&gt; –&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&amp;gt;alert(1);&lt;/code&gt; гэсэн л хариу ирэв. Мэдээж скрипт маань бүрэн ажиллаагүй учраас энэхүү &lt;strong&gt;replace&lt;/strong&gt; -г &lt;strong&gt;bypass&lt;/strong&gt; хийх аргаа бодож эхлэв&lt;/p&gt;
+&lt;p&gt;Үр дүнд: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;alert(1);&amp;lt;/script&amp;gt;&lt;/code&gt; –&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&amp;gt;alert(1);&lt;/code&gt; гэсэн л хариу ирэв. Мэдээж скрипт маань бүрэн ажиллаагүй учраас энэхүү &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;replace&lt;/code&gt; -г &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bypass&lt;/code&gt; хийх аргаа бодож эхлэв&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-7.PNG&quot; /&gt;
