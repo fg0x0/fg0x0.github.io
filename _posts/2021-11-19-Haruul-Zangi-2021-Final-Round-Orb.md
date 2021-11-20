@@ -5,7 +5,8 @@ published: true
 <p align="center">
 🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
 </p>
-![Visitor Count](https://profile-counter.glitch.me/{fg0d}/count.svg)
+
+<img src="![Visitor Count](https://profile-counter.glitch.me/{fg0d}/count.svg")>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png">
