@@ -78,13 +78,13 @@ published: true
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-7.PNG">
 </p>
 
-Ер нь бол янз бүрээр л давах боломжтой жишээ нь: `<scr<script>ipt> , <sscriptcript>` гэх мэт миний хувьд яаж шалгалтыг давсан вэ гэхээр `<scRipt>` буюу дан ганц **R** үсгийг томоор бичихэд л болно гэж үзсэн
+Ер нь бол янз бүрээр л давах боломжтой жишээ нь: `<scr<script>ipt> , <sscriptcript>` гэх мэт миний хувьд яаж шалгалтыг давсан вэ гэхээр `<scRipt>` буюу дан ганц `R` үсгийг томоор бичихэд л болно гэж үзсэн
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-8.PNG">
 </p>
 
-Тийм ээ. Скрипт маань амжилттай ажиллаж **pwned by fg0d** гэсэн **alert** мэдээллийг бидэнд харууллаа
+Тийм ээ. Скрипт маань амжилттай ажиллаж `pwned by fg0d` гэсэн `alert` мэдээллийг бидэнд харууллаа
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-9.PNG">
@@ -102,7 +102,7 @@ published: true
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/dura.gif">
 </p>
 
-Хэрэглэгч талаас буюу бид нар тухайн вебсайтын эмзэг байдлаар дамжуулж ард нь ажиллаж байгаа серверлүү хортой хүсэлт илгээнэ. Илгээхдээ дотор нь буцаад холбогдох ямар нэгэн хаяг тавьж өгөх шаардлага үүсэж байгаа биз тэгэхгүй бол эзэнгүй юм шиг таны хортой код хаашаа явахаа мэдэхгүй хүсэлтээ тухайн хэсэгтээ л дамжуулаад байна гэсэн үг л дээ. За тэгэхээр буцаад ирэх хүсэлтийг нь барьж авахын тулд онлайн **webhook** ашиглаж барих боломжтой эсвэл **requestb.in** ч юм уу тэ хүссэнээрээ л хий
+Хэрэглэгч талаас буюу бид нар тухайн вебсайтын эмзэг байдлаар дамжуулж ард нь ажиллаж байгаа серверлүү хортой хүсэлт илгээнэ. Илгээхдээ дотор нь буцаад холбогдох ямар нэгэн хаяг тавьж өгөх шаардлага үүсэж байгаа биз тэгэхгүй бол эзэнгүй юм шиг таны хортой код хаашаа явахаа мэдэхгүй хүсэлтээ тухайн хэсэгтээ л дамжуулаад байна гэсэн үг л дээ. За тэгэхээр буцаад ирэх хүсэлтийг нь барьж авахын тулд онлайн ![webhook](https://webhook.site/) ашиглаж барих боломжтой эсвэл [requestb.in](https://pipedream.com/requestbin) ч юм уу тэ хүссэнээрээ л хий
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG">
