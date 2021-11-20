@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T20:11:48+01:00</updated>
+ <updated>2021-11-20T20:13:42+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -82,7 +82,7 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-5.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Хамгийн энгийн &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XSS payload&lt;/code&gt;-г бичиж тест хийхээр шийдэв. Хэрвээ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;payload&lt;/code&gt; маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;replace&lt;/code&gt; хийх байгааг хайж олох шаардлага үүснэ&lt;/p&gt;
+&lt;p&gt;Хамгийн энгийн &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XSS payload&lt;/code&gt;-г бичиж тест хийхээр шийдэв. Хэрвээ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;payload&lt;/code&gt; маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;replace&lt;/code&gt; хийж байгааг хайж олох шаардлага үүснэ&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG&quot; /&gt;
