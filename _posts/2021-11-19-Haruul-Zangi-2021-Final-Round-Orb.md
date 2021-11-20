@@ -2,9 +2,9 @@
 published: true
 ---
 # HZ 2021 Final Round Orb
-<img src="https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https://fg0d.github.io/2021/11/19/haruul-zangi-2021-final-round-orb" alt="Hits">
-
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=keyword&title=зочилсон-хүмүүсийн-тоо)
 <p align="center">
+  
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png">
 </p>
 
