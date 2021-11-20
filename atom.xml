@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T20:00:28+01:00</updated>
+ <updated>2021-11-20T20:08:40+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -139,34 +139,47 @@ WE CAN FREE TO FLY
 &lt;p&gt;&lt;a href=&quot;https://webhook.site/&quot;&gt;webhook&lt;/a&gt; дээр орж ирсэн хүсэлтийн хариуг харвал нийтдээ 2 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;response&lt;/code&gt; ирсэн байна. Эхний хариу нь миний өөрийн Session ID болон мэдээллийг буцааж харуулсан байгаа харж болно&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-13.PNG&quot; /&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-13-backup.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Дараагийн хариуг харвал админы&lt;/p&gt;
+&lt;p&gt;Дараагийн хариуг харвал админ хэрэглэгчийн &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cookie&lt;/code&gt; утга байгааг олж харна. Бид вебсайтын цоорхойг ашиглаж ард нь ажиллаж байгаа админ хэрэглэгчийн Session-г амжилттай Hijacking хийчихлээ.&lt;/p&gt;
+
+&lt;p&gt;Screenshot-1 флаг: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;За дараагийн үргэлжлэл хэсэгрүүгээ орж харвал саяны Hijacking хийсэн хэсэгт &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://screen/god-wisper.php&lt;/code&gt; гэсэн &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;referer&lt;/code&gt; байгааг харж болно. Энэ мэдээж бидэнд маш том &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hint&lt;/code&gt; өгч байна&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-15.PNG&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;Веб хөтөчийнхөө Proxy-г асааж байгаад туршилт хийж үзье&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-16.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;Хамгийн эхний &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.php&lt;/code&gt;-д харагдаж байсан форм дотор тест мэдээллийг оруулаад үзсэн&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-17.PNG&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;Оруулж байх үедээ хүсэлтийг нь дундаас нь барьж аваад харвал &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;url=hellotest&lt;/code&gt; гэж дамжиж байна. Referer нь: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://127.0.0.1:1337&lt;/code&gt; буюу өөрийн локал хаяг байв.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-18.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;Үүнийг олсон мэдээллээрээ өөрчлөөд үзвэл &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://screen/admin.php&lt;/code&gt;&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-19.PNG&quot; /&gt;
 &lt;/p&gt;
+
 </content>
  </entry>
  
