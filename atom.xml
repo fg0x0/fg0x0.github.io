@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T19:48:56+01:00</updated>
+ <updated>2021-11-20T19:51:48+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -36,53 +36,53 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;“Харуул Занги 2021” тэмцээний эхний шатанд Screenshot-1 даалгаврыг дангаараа бодож 1000 оноо авсан бөгөөд энэхүү бодлогын талаар яаж бодсоноо бусад багийн гишүүдтэйгээ хуваалцах нь зүйтэй болов уу гэж бодлоо&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Харуул Занги 2021&lt;/code&gt; тэмцээний эхний шатанд &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Screenshot-1&lt;/code&gt; даалгаврыг дангаараа бодож &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1000&lt;/code&gt; оноо авсан бөгөөд энэхүү бодлогын талаар яаж бодсоноо бусад багийн гишүүдтэйгээ хуваалцах нь зүйтэй болов уу гэж бодлоо&lt;/p&gt;
 
 &lt;h2 id=&quot;screenshot-1&quot;&gt;Screenshot-1&lt;/h2&gt;
 
-&lt;p&gt;За энэхүү даалгаврыг тэмцээний явцад амжилттай хийсэн ч тэмцээн дууссаны дараа сервер унтарсан учраас харуул занги тэмцээний Github хуудаснаас Docker файлыг авч локалаар ажиллууж даалгаврыг хийхээр бэлтгэв&lt;/p&gt;
+&lt;p&gt;За энэхүү даалгаврыг тэмцээний явцад амжилттай хийсэн ч тэмцээн дууссаны дараа сервер унтарсан учраас харуул занги тэмцээний &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Github&lt;/code&gt; хуудаснаас &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Docker&lt;/code&gt; файлыг авч локалаар ажиллууж даалгаврыг хийхээр бэлтгэв&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/docker-1.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Building хийж байгаа үйл явц&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Building&lt;/code&gt; хийж байгаа үйл явц&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/docker-2.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Өгөгдсөн IP хаяг болон портоор хандаад үзвэл бидэнд “Вэб скрийншот авах үйлчилгээ” нэртэй форм харагдана. Анх харахад URL-ээр дамжуулж хортой код хуулаад веб сервер дээр агуулагдаж байгаа скрийншот файлуудыг татаж аваад тэрэн дотроосоо &lt;strong&gt;flag&lt;/strong&gt; агуулсан файлыг олох болов уу гэсэн төсөөлөл надад байсан&lt;/p&gt;
+&lt;p&gt;Өгөгдсөн IP хаяг болон портоор хандаад үзвэл бидэнд &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Вэб скрийншот авах үйлчилгээ&lt;/code&gt; нэртэй форм харагдана. Анх харахад URL-ээр дамжуулж хортой код хуулаад веб сервер дээр агуулагдаж байгаа скрийншот файлуудыг татаж аваад тэрэн дотроосоо &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flag&lt;/code&gt; агуулсан файлыг олох болов уу гэсэн төсөөлөл надад байсан&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Формд ямар нэгэн утга оруулаад үзэхэд энд хадгалагдлаа гэх мэт &lt;strong&gt;random generate URL&lt;/strong&gt; өгч байсан бөгөөд энэхүү URL-руу хандаад үзвэл &lt;strong&gt;File Not Found&lt;/strong&gt; алдааг өгч байсан учраас &lt;strong&gt;Source Code Analyze&lt;/strong&gt; хийж үзэхээр шийдэв. Хайлтын үр дүнд &lt;strong&gt;./feed.php&lt;/strong&gt; гэсэн файлыг олов. Магадгүй сэжигтэй байж болох л юм тэ шалгаад үзье&lt;/p&gt;
+&lt;p&gt;Формд ямар нэгэн утга оруулаад үзэхэд энд хадгалагдлаа гэх мэт &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;random generate URL&lt;/code&gt; өгч байсан бөгөөд энэхүү URL-руу хандаад үзвэл &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File Not Found&lt;/code&gt; алдааг өгч байсан учраас &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Source Code Analyze&lt;/code&gt; хийж үзэхээр шийдэв. Хайлтын үр дүнд &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./feed.php&lt;/code&gt; гэсэн файлыг олов. Магадгүй сэжигтэй байж болох л юм тэ шалгаад үзье&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-2.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Файлруу хандаад үзэхэд вебсайтуудын &lt;strong&gt;Comment&lt;/strong&gt; бичдэг хэсэгтэй адилхан харагдав. Үүнийг хараад олон ийм формтой таарж байсан хүний хувьд шууд л &lt;strong&gt;Stored XSS&lt;/strong&gt; байна шүү дээ гэж бодсон.&lt;/p&gt;
+&lt;p&gt;Файлруу хандаад үзэхэд вебсайтуудын &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Comment&lt;/code&gt; бичдэг хэсэгтэй адилхан харагдав. Үүнийг хараад олон ийм формтой таарж байсан хүний хувьд шууд л &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Stored XSS&lt;/code&gt; байна шүү дээ гэж бодсон.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-3.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Юу ч гэсэн эхний ээлжинд хамаагүй утга оруулаад үзье гэж бодсон. Магадгүй &lt;strong&gt;NoSQL&lt;/strong&gt; , &lt;strong&gt;PHP&lt;/strong&gt;-тэй холбоотой Bug байх ч юм билүү тэ хэн мэдлээ ххэ&lt;/p&gt;
+&lt;p&gt;Юу ч гэсэн эхний ээлжинд хамаагүй утга оруулаад үзье гэж бодсон. Магадгүй &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NoSQL&lt;/code&gt; , &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHP&lt;/code&gt;-тэй холбоотой &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bug&lt;/code&gt; байх ч юм билүү тэ хэн мэдлээ ххэ&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-4.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Мэдээж хүлээлт өндөр байгаагүй учраас &lt;strong&gt;Hello&lt;/strong&gt; гэсэн үгийг маань хэвлэж байсан. Өөр аргаар л үзье даа&lt;/p&gt;
+&lt;p&gt;Мэдээж хүлээлт өндөр байгаагүй учраас &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hello&lt;/code&gt; гэсэн үгийг маань хэвлэж байсан. Өөр аргаар л үзье даа&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-5.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Хамгийн энгийн XSS payload-г бичиж тест хийхээр шийдэв. Хэрвээ payload маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь &lt;strong&gt;replace&lt;/strong&gt; хийх байгааг хайж олох шаардлага үүснэ&lt;/p&gt;
+&lt;p&gt;Хамгийн энгийн &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XSS payload&lt;/code&gt;-г бичиж тест хийхээр шийдэв. Хэрвээ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;payload&lt;/code&gt; маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;replace&lt;/code&gt; хийх байгааг хайж олох шаардлага үүснэ&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG&quot; /&gt;
