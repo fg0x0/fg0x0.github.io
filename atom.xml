@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T07:12:41+01:00</updated>
+ <updated>2021-11-20T07:13:02+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -536,6 +536,13 @@ SSH password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
    <updated>2021-10-03T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/03/XSS-2020-Payloads</id>
    <content type="html">&lt;h2 id=&quot;xss-2020-payloads-by-fg0d&quot;&gt;XSS-2020-Payloads by fg0d&lt;/h2&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://profile-counter.glitch.me/{fg0d}/count.svg&quot; /&gt;
+&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/xss2.jpeg&quot; /&gt;
