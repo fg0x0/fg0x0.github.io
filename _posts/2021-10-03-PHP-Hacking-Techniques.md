@@ -3,6 +3,13 @@ published: true
 ---
 ## PHP Hacking Techniques
 
+<p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{2021-10-03-PHP-Hacking-Techniques}/count.svg">
+</p>
+
 ##### PHP Weak Type
 
 ```php
