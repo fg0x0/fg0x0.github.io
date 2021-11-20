@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T19:47:04+01:00</updated>
+ <updated>2021-11-20T19:48:56+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -70,7 +70,7 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-3.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Юу ч гэсэн эхний ээлжинд хамаагүй утга оруулаад үзье гэж бодсон. Магадгүй NoSQL , PHP-тэй холбоотой Bug байх ч юм билүү тэ хэн мэдлээ ххэ&lt;/p&gt;
+&lt;p&gt;Юу ч гэсэн эхний ээлжинд хамаагүй утга оруулаад үзье гэж бодсон. Магадгүй &lt;strong&gt;NoSQL&lt;/strong&gt; , &lt;strong&gt;PHP&lt;/strong&gt;-тэй холбоотой Bug байх ч юм билүү тэ хэн мэдлээ ххэ&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-4.PNG&quot; /&gt;
@@ -106,13 +106,19 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-9.PNG&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;ОДОО БҮГДЭЭРЭЭ ЗҮГЭЭР ДУРААРАА ДУРГИХ БОЛОМЖТОЙ. &lt;strong&gt;WE CAN FREE TO FLY&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+ОДОО БҮГДЭЭРЭЭ ЗҮГЭЭР ДУРААРАА ДУРГИХ БОЛОМЖТОЙ 
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+**WE CAN FREE TO FLY**
+&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/dura.gif&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Хэрэглэгч талаас буюу бид нар тухайн вебсайтын эмзэг байдлаар дамжуулж ард нь ажиллаж байгаа серверлүү хортой хүсэлт илгээнэ. Илгээхдээ дотор нь буцаад холбогдох ямар нэгэн хаяг тавьж өгөх шаардлага үүсэж байгаа биз тэгэхгүй бол эзэнгүй юм шиг таны хортой код хаашаа явахаа мэдэхгүй хүсэлтээ тухайн хэсэгтээ л дамжуулаад байна гэсэн үг л дээ. За тэгэхээр буцаад ирэх хүсэлтийг нь барьж авахын тулд онлайн &lt;strong&gt;webhook&lt;/strong&gt; ашиглаж барих боломжтой эсвэл requestb.in ч юм уу тэ хүссэнээрээ л хий&lt;/p&gt;
+&lt;p&gt;Хэрэглэгч талаас буюу бид нар тухайн вебсайтын эмзэг байдлаар дамжуулж ард нь ажиллаж байгаа серверлүү хортой хүсэлт илгээнэ. Илгээхдээ дотор нь буцаад холбогдох ямар нэгэн хаяг тавьж өгөх шаардлага үүсэж байгаа биз тэгэхгүй бол эзэнгүй юм шиг таны хортой код хаашаа явахаа мэдэхгүй хүсэлтээ тухайн хэсэгтээ л дамжуулаад байна гэсэн үг л дээ. За тэгэхээр буцаад ирэх хүсэлтийг нь барьж авахын тулд онлайн &lt;strong&gt;webhook&lt;/strong&gt; ашиглаж барих боломжтой эсвэл &lt;strong&gt;requestb.in&lt;/strong&gt; ч юм уу тэ хүссэнээрээ л хий&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG&quot; /&gt;
