@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T07:11:13+01:00</updated>
+ <updated>2021-11-20T07:12:32+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -200,6 +200,12 @@ SSH password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
    <updated>2021-10-09T00:00:00+02:00</updated>
    <id>https://fg0d.github.io/2021/10/09/Stack-Based-Buffer-Overflow-x86-Linux</id>
    <content type="html">&lt;h2 id=&quot;stack-based-санах-ойн-халилт-халдлагын-тухай&quot;&gt;Stack Based санах ойн халилт халдлагын тухай&lt;/h2&gt;
+&lt;p align=&quot;center&quot;&gt;
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://profile-counter.glitch.me/{fg0d}/count.svg&quot; /&gt;
+&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/stack/stackk.jpeg&quot; /&gt;
@@ -279,7 +285,6 @@ SSH password: &lt;strong&gt;u3RYQMZDaAg4bEEq6SmLOi&lt;/strong&gt;
 	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
 </content>
  </entry>
  
