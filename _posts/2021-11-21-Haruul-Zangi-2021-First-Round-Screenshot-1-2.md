@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Харуул Занги 2021 эхний шат Screenshot 1 , 2 ( Points 1000 )
 
@@ -14,4 +14,3 @@ published: false
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/docker-1.PNG">
 </p>
-
