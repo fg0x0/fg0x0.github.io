@@ -2,11 +2,10 @@
 published: true
 ---
 # HZ 2021 Final Round Orb
-<div class="views">
-    <span class="views">
-        <img src="https://visitor-badge.glitch.me/badge?page_id=https://fg0d.github.io/2021/11/19/haruul-zangi-2021-final-round-orb" alt="Views"/>
-    </span>
-</div>
+<p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+![Visitor Count](https://profile-counter.glitch.me/{fg0d}/count.svg)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png">
