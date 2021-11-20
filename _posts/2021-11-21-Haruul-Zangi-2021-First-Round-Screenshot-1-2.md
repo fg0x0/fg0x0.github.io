@@ -108,25 +108,25 @@ WE CAN FREE TO FLY
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG">
 </p>
 
-
+XSS хортой кодон дотроо [webhook](https://webhook.site/)-ээс авсан public URL-аа бичээд `Санал Явуулах` дарна
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-11.PNG">
 </p>
 
-
+Script маань амжилттай ажилласан эсэхийг статикаар анализ хийж үзвэл `alert`-н ард хэсэгт зурагны `icon` гарч ирсэн байгааг харж болно. Тэгэхээр скрипт асуудалгүй ажилласан байна гэж ойлгож болно
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-12.PNG">
 </p>
 
-
+[webhook](https://webhook.site/) дээр орж ирсэн хүсэлтийн хариуг харвал нийтдээ 2 `response` ирсэн байна. Эхний хариу нь миний өөрийн Session ID болон мэдээллийг буцааж харуулсан байгаа харж болно 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-13.PNG">
 </p>
 
-
+Дараагийн хариуг харвал админы
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG">
