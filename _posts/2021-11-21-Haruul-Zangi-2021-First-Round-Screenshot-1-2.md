@@ -152,15 +152,20 @@ Screenshot-1 флаг: `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-17.PNG">
 </p>
 
-Оруулж байх үедээ хүсэлтийг нь дундаас нь барьж аваад харвал `url=hellotest` гэж дамжиж байна. Referer нь: `http://127.0.0.1:1337` буюу өөрийн локал хаяг байв. 
+Оруулж байх үедээ хүсэлтийг нь дундаас нь барьж аваад харвал `url=hellotest` гэж дамжиж байна. Referer нь: `http://127.0.0.1:1337` буюу өөрийн локал хаяг байв
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-18.PNG">
 </p>
 
-Үүнийг олсон мэдээллээрээ өөрчлөөд үзвэл `http://screen/admin.php`
+Үүнийг олсон мэдээллээрээ `http://screen/admin.php` болгож өөрчлөөд `forward` хийгээд үзвэл
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-19.PNG">
 </p>
 
+Эцэст нь бид Screenshot-2 даалгаврын флагыг оллоо
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/flagg.jpg">
+</p>
