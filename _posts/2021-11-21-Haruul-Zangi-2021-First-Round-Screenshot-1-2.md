@@ -72,7 +72,7 @@ published: true
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG">
 </p>
 
-Үр дүнд: `<script>alert(1);</script>` --> `<>alert(1);` гэсэн л хариу ирэв. Мэдээж скрипт маань бүрэн ажиллаагүй учраас энэхүү **replace** -г **bypass** хийх аргаа бодож эхлэв
+Үр дүнд: `<script>alert(1);</script>` --> `<>alert(1);` гэсэн л хариу ирэв. Мэдээж скрипт маань бүрэн ажиллаагүй учраас энэхүү `replace` -г `bypass` хийх аргаа бодож эхлэв
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-7.PNG">
