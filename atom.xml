@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T07:22:03+01:00</updated>
+ <updated>2021-11-20T07:23:03+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -1433,6 +1433,13 @@ Export хийхэд дотор нь 4 файл байсан бөгөөд фай�
    <id>https://fg0d.github.io/2021/10/02/Haruul-Zangi-2018-final-round-Web-PHP</id>
    <content type="html">&lt;h3 id=&quot;challenge-type-web-exploitation&quot;&gt;Challenge Type: Web Exploitation&lt;/h3&gt;
 &lt;h3 id=&quot;challenge-name-shao-kahn&quot;&gt;Challenge Name: Shao Kahn&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://profile-counter.glitch.me/{2021-10-02-Haruul-Zangi-2018-final-round-Web-PHP}/count.svg&quot; /&gt;
+&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;PHP symlink , base64 , Web Exploitation&lt;/p&gt;
