@@ -54,29 +54,49 @@ Building хийж байгаа үйл явц
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-3.PNG">
 </p>
 
+Юу ч гэсэн эхний ээлжинд хамаагүй утга оруулаад үзье гэж бодсон. Магадгүй NoSQL , PHP-тэй холбоотой Bug байх ч юм билүү тэ хэн мэдлээ ххэ
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-4.PNG">
 </p>
+
+Мэдээж хүлээлт өндөр байгаагүй учраас **Hello** гэсэн үгийг маань хэвлэж байсан. Өөр аргаар л үзье даа
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-5.PNG">
 </p>
 
+Хамгийн энгийн XSS payload-г бичиж тест хийхээр шийдэв. Хэрвээ payload маань ажиллаж байвал окэй миний бүх payload асуудалгүй ажиллах ёстой. Аан ажиллахгүй байвал яг аль хэсгийг нь **replace** хийх байгааг хайж олох шаардлага үүснэ
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG">
 </p>
+
+Үр дүнд: <script>alert(1);</script> --> <>alert(1); гэсэн л хариу ирэв. Мэдээж скрипт маань бүрэн ажиллаагүй учраас энэхүү **replace** -г **bypass** хийх аргаа бодож эхлэв
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-7.PNG">
 </p>
 
+Ер нь бол янз бүрээр л давах боломжтой жишээ нь: `<scr<script>ipt> , <sscriptcript>` гэх мэт миний хувьд яаж шалгалтыг давсан вэ гэхээр `<scRipt>` буюу дан ганц **R** үсгийг томоор бичихэд л болно гэж үзсэн
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-8.PNG">
 </p>
 
+Тийм ээ. Скрипт маань амжилттай ажиллаж **pwned by fg0d** гэсэн **alert** мэдээллийг бидэнд харууллаа
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-9.PNG">
 </p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/dura.gif">
+</p>
+
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG">
