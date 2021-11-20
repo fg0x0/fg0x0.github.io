@@ -95,7 +95,7 @@ published: true
 </p>
 
 <p align="center">
-**WE CAN FREE TO FLY**
+WE CAN FREE TO FLY
 </p>
 
 <p align="center">
