@@ -4,7 +4,9 @@ published: true
 ## Харуул Занги 2021 эхний шат
 
 Даалгаврын төрөл: Web Exploitation
+
 Даалгаврын нэр: Screenshot 1 ( Points 1000 )
+
 Даалгаврын нэр: Screenshot 2
 
 <p align="center">
