@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T19:16:40+01:00</updated>
+ <updated>2021-11-20T19:30:51+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -17,7 +17,7 @@
    <link href="https://fg0d.github.io//2021/11/21/haruul-zangi-2021-first-round-screenshot-1-2"/>
    <updated>2021-11-21T00:00:00+01:00</updated>
    <id>https://fg0d.github.io/2021/11/21/Haruul-Zangi-2021-First-Round-Screenshot-1-2</id>
-   <content type="html">&lt;h2 id=&quot;харуул-занги-2021-эхний-шат&quot;&gt;Харуул Занги 2021 эхний шат&lt;/h2&gt;
+   <content type="html">&lt;h1 id=&quot;харуул-занги-2021-эхний-шат&quot;&gt;Харуул Занги 2021 эхний шат&lt;/h1&gt;
 
 &lt;p&gt;Даалгаврын төрөл: &lt;strong&gt;Web Exploitation&lt;/strong&gt;&lt;/p&gt;
 
@@ -36,10 +36,66 @@
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;“Харуул Занги 2021” тэмцээний эхний шатанд&lt;/p&gt;
+&lt;p&gt;“Харуул Занги 2021” тэмцээний эхний шатанд Screenshot-1 даалгаврыг дангаараа бодож 1000 оноо авсан бөгөөд энэхүү бодлогын талаар яаж бодсоноо бусад багийн гишүүдтэйгээ хуваалцах нь зүйтэй болов уу гэж бодлоо&lt;/p&gt;
+
+&lt;h2 id=&quot;screenshot-1&quot;&gt;Screenshot-1&lt;/h2&gt;
+
+&lt;p&gt;За энэхүү даалгаврыг тэмцээний явцад амжилттай хийсэн ч тэмцээн дууссаны дараа сервер унтарсан учраас харуул занги тэмцээний Github хуудаснаас Docker файлыг авч локалаар ажиллууж даалгаврыг хийхээр бэлтгэв&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/docker-1.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Building хийж байгаа үйл явц&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/docker-2.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Өгөгдсөн IP хаяг болон портоор хандаад үзвэл бидэнд “Вэб скрийншот авах үйлчилгээ” нэртэй форм харагдана. Анх харахад URL-ээр дамжуулж хортой код хуулаад веб сервер дээр агуулагдаж байгаа скрийншот файлуудыг татаж аваад тэрэн дотроосоо &lt;strong&gt;flag&lt;/strong&gt; агуулсан файлыг олох болов уу гэсэн төсөөлөл надад байсан&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Формд ямар нэгэн утга оруулаад үзэхэд энд хадгалагдлаа гэх мэт &lt;strong&gt;random generate URL&lt;/strong&gt; өгч байсан бөгөөд энэхүү URL-руу хандаад үзвэл &lt;strong&gt;File Not Found&lt;/strong&gt; алдааг өгч байсан учраас &lt;strong&gt;Source Code Analyze&lt;/strong&gt; хийж үзэхээр шийдэв. Хайлтын үр дүнд &lt;strong&gt;./feed.php&lt;/strong&gt; гэсэн файлыг олов. Магадгүй сэжигтэй байж болох л юм тэ шалгаад үзье&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-2.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Файлруу хандаад үзэхэд вебсайтуудын &lt;strong&gt;Comment&lt;/strong&gt; бичдэг хэсэгтэй адилхан харагдав. Үүнийг хараад олон ийм формтой таарж байсан хүний хувьд шууд л &lt;strong&gt;Stored XSS&lt;/strong&gt; байна шүү дээ гэж бодсон.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-3.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-4.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-5.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-6.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-7.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-8.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-9.PNG&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG&quot; /&gt;
 &lt;/p&gt;
 </content>
  </entry>
