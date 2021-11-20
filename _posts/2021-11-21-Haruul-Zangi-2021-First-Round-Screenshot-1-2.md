@@ -90,14 +90,68 @@ Building хийж байгаа үйл явц
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-9.PNG">
 </p>
 
-
+ОДОО БҮГДЭЭРЭЭ ЗҮГЭЭР ДУРААРАА ДУРГИХ БОЛОМЖТОЙ. **WE CAN FREE TO FLY**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/dura.gif">
 </p>
 
-
+Хэрэглэгч талаас буюу бид нар тухайн вебсайтын эмзэг байдлаар дамжуулж ард нь ажиллаж байгаа серверлүү хортой хүсэлт илгээнэ. Илгээхдээ дотор нь буцаад холбогдох ямар нэгэн хаяг тавьж өгөх шаардлага үүсэж байгаа биз тэгэхгүй бол эзэнгүй юм шиг таны хортой код хаашаа явахаа мэдэхгүй хүсэлтээ тухайн хэсэгтээ л дамжуулаад байна гэсэн үг л дээ. За тэгэхээр буцаад ирэх хүсэлтийг нь барьж авахын тулд онлайн **webhook** ашиглаж барих боломжтой эсвэл requestb.in ч юм уу тэ хүссэнээрээ л хий
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-11.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-12.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-13.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-15.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-16.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-17.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-18.PNG">
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-19.PNG">
 </p>
