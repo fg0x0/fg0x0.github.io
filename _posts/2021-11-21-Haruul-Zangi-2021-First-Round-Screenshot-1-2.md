@@ -10,6 +10,13 @@ published: true
 Даалгаврын нэр: **Screenshot 2**
 
 <p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{2021-11-21-Haruul-Zangi-2021-First-Round-Screenshot-1-2}/count.svg">
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png">
 </p>
 
@@ -121,7 +128,7 @@ Script маань амжилттай ажилласан эсэхийг стат�
 
 Дараагийн хариуг харвал админ хэрэглэгчийн `Cookie` утга байгааг олж харна. Бид вебсайтын цоорхойг ашиглаж ард нь ажиллаж байгаа админ хэрэглэгчийн Session-г амжилттай Hijacking хийчихлээ. 
 
-**Screenshot-1 флаг:** `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
+Screenshot-1 флаг: `HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG">
