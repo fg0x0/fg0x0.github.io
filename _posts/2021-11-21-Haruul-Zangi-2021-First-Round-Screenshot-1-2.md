@@ -20,6 +20,8 @@ published: true
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/hzz.png">
 </p>
 
+"Харуул Занги 2021" тэмцээний эхний шатанд 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/docker-1.PNG">
 </p>
