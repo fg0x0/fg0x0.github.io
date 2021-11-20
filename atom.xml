@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2021-11-20T19:54:56+01:00</updated>
+ <updated>2021-11-20T20:00:28+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -124,17 +124,25 @@ WE CAN FREE TO FLY
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-10.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;XSS хортой кодон дотроо &lt;a href=&quot;https://webhook.site/&quot;&gt;webhook&lt;/a&gt;-ээс авсан public URL-аа бичээд &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Санал Явуулах&lt;/code&gt; дарна&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-11.PNG&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;Script маань амжилттай ажилласан эсэхийг статикаар анализ хийж үзвэл &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alert&lt;/code&gt;-н ард хэсэгт зурагны &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;icon&lt;/code&gt; гарч ирсэн байгааг харж болно. Тэгэхээр скрипт асуудалгүй ажилласан байна гэж ойлгож болно&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-12.PNG&quot; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://webhook.site/&quot;&gt;webhook&lt;/a&gt; дээр орж ирсэн хүсэлтийн хариуг харвал нийтдээ 2 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;response&lt;/code&gt; ирсэн байна. Эхний хариу нь миний өөрийн Session ID болон мэдээллийг буцааж харуулсан байгаа харж болно&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-13.PNG&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;Дараагийн хариуг харвал админы&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;https://raw.githubusercontent.com/fg0d/fg0d.github.io/master/photos/screenshot/screen-14.PNG&quot; /&gt;
