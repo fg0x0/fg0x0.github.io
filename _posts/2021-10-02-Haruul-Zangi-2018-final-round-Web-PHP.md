@@ -4,6 +4,13 @@ published: true
 ### Challenge Type: Web Exploitation
 ### Challenge Name: Shao Kahn
 
+<p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{2021-10-02-Haruul-Zangi-2018-final-round-Web-PHP}/count.svg">
+</p>
+
 > PHP symlink , base64 , Web Exploitation
 
 <p align="center">
