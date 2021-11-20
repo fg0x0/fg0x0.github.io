@@ -4,6 +4,13 @@ published: true
 ### Challenge Type: Forensics
 ### Challenge Name: Very Secure LDAP
 
+<p align="center">
+🐱‍💻 Зочилсон хүний тоо 🐱‍💻 
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{2021-10-03-Haruul-Zangi-2019-Round-1-Forensics-LDAP}/count.svg">
+</p>
+
 > LDAP , Wireshark , hash , gpp decryption tool
 
 <p align="center">
