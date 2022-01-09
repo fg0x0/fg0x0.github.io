@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://fg0d.github.io/2022/01/10/penetration-testing-all-things",
+            "title": "Penetration Testing All Things",
+            "summary": null,
+            "content_text": "Penetration testingChisel.exeDownload –&gt; https://github.com/jpillora/chiselUsage:./chisel.exe client 10.10.14.15:8000 R:9512:127.0.0.1:9512",
+            "content_html": "<h2 id=\"penetration-testing\">Penetration testing</h2><p>Chisel.exe</p><p>Download –&gt; https://github.com/jpillora/chisel</p><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Usage:./chisel.exe client 10.10.14.15:8000 R:9512:127.0.0.1:9512</code></pre></div></div>",
+            "url": "https://fg0d.github.io/2022/01/10/penetration-testing-all-things",
+            
+            
+            
+            
+            
+            "date_published": "2022-01-10T00:00:00+01:00",
+            "date_modified": "2022-01-10T00:00:00+01:00",
+            
+                "author":  {
+                "name": "fg0d",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://fg0d.github.io/2021/11/21/haruul-zangi-2021-first-round-screenshot-1-2",
             "title": "Haruul Zangi 2021 First Round Screenshot 1 2",
             "summary": null,

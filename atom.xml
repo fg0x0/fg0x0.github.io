@@ -4,13 +4,30 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2022-01-09T17:07:14+01:00</updated>
+ <updated>2022-01-09T17:07:58+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
    <email>fantasmdota@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Penetration Testing All Things</title>
+   <link href="https://fg0d.github.io//2022/01/10/penetration-testing-all-things"/>
+   <updated>2022-01-10T00:00:00+01:00</updated>
+   <id>https://fg0d.github.io/2022/01/10/Penetration-Testing-ALL-Things</id>
+   <content type="html">&lt;h2 id=&quot;penetration-testing&quot;&gt;Penetration testing&lt;/h2&gt;
+
+&lt;p&gt;Chisel.exe&lt;/p&gt;
+
+&lt;p&gt;Download –&amp;gt; https://github.com/jpillora/chisel&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Usage:
+./chisel.exe client 10.10.14.15:8000 R:9512:127.0.0.1:9512
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Haruul Zangi 2021 First Round Screenshot 1 2</title>
