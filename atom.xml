@@ -4,7 +4,7 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2022-01-25T14:45:39+01:00</updated>
+ <updated>2022-01-25T14:45:43+01:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
@@ -17,43 +17,6 @@
    <link href="https://fg0d.github.io//2022/01/25/oscp-preparation-all-the-things"/>
    <updated>2022-01-25T00:00:00+01:00</updated>
    <id>https://fg0d.github.io/2022/01/25/OSCP-Preparation-All-The-Things</id>
-   <content type="html">&lt;h1 id=&quot;oscp-prep-by-fg0x0&quot;&gt;OSCP Prep by fg0x0&lt;/h1&gt;
-
-&lt;h3 id=&quot;scanning&quot;&gt;Scanning&lt;/h3&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rustscan -a 192.168.1.1 --ulimit 5000
-sudo nmap -sV -T4 -p- -O -oN nmap bravery
--sV determine service/version info
--T4 for faster execution
--p- scan all ports
--O identify Operating System
--oN output to file, in our case it’s called nmap
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;web-exploitation&quot;&gt;Web Exploitation&lt;/h3&gt;
-
-&lt;h3 id=&quot;sqlmap&quot;&gt;Sqlmap&lt;/h3&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqlmap -r sql.txt --dbs
-sqlmap -r sql.txt -D Staff --dump
-sqlmap -r sql.txt -D users --dump
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;password-cracking&quot;&gt;Password Cracking&lt;/h3&gt;
-
-&lt;h5 id=&quot;hydra&quot;&gt;Hydra&lt;/h5&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hydra -L users.txt -P passwords.txt ssh://192.168.56.142:22 -t 10 -I
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Oscp Prep</title>
-   <link href="https://fg0d.github.io//2022/01/25/oscp-prep"/>
-   <updated>2022-01-25T00:00:00+01:00</updated>
-   <id>https://fg0d.github.io/2022/01/25/OSCP-Prep</id>
    <content type="html">&lt;h1 id=&quot;oscp-prep-by-fg0x0&quot;&gt;OSCP Prep by fg0x0&lt;/h1&gt;
 
 &lt;h3 id=&quot;scanning&quot;&gt;Scanning&lt;/h3&gt;
