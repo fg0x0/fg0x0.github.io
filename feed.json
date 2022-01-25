@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://fg0d.github.io/2022/01/25/oscp-prep",
+            "title": "Oscp Prep",
+            "summary": null,
+            "content_text": "OSCP Prep by fg0x0Scanningrustscan -a 192.168.1.1 --ulimit 5000sudo nmap -sV -T4 -p- -O -oN nmap bravery-sV determine service/version info-T4 for faster execution-p- scan all ports-O identify Operating System-oN output to file, in our case it’s called nmapWeb ExploitationSqlmapsqlmap -r sql.txt --dbssqlmap -r sql.txt -D Staff --dumpsqlmap -r sql.txt -D users --dumpPassword CrackingHydrahydra -L users.txt -P passwords.txt ssh://192.168.56.142:22 -t 10 -I",
+            "content_html": "<h1 id=\"oscp-prep-by-fg0x0\">OSCP Prep by fg0x0</h1><h3 id=\"scanning\">Scanning</h3><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>rustscan -a 192.168.1.1 --ulimit 5000sudo nmap -sV -T4 -p- -O -oN nmap bravery-sV determine service/version info-T4 for faster execution-p- scan all ports-O identify Operating System-oN output to file, in our case it’s called nmap</code></pre></div></div><h3 id=\"web-exploitation\">Web Exploitation</h3><h3 id=\"sqlmap\">Sqlmap</h3><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>sqlmap -r sql.txt --dbssqlmap -r sql.txt -D Staff --dumpsqlmap -r sql.txt -D users --dump</code></pre></div></div><h3 id=\"password-cracking\">Password Cracking</h3><h5 id=\"hydra\">Hydra</h5><div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>hydra -L users.txt -P passwords.txt ssh://192.168.56.142:22 -t 10 -I</code></pre></div></div>",
+            "url": "https://fg0d.github.io/2022/01/25/oscp-prep",
+            
+            
+            
+            
+            
+            "date_published": "2022-01-25T00:00:00+01:00",
+            "date_modified": "2022-01-25T00:00:00+01:00",
+            
+                "author":  {
+                "name": "fg0d",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://fg0d.github.io/2022/01/10/penetration-testing-all-things",
             "title": "Penetration Testing All Things",
             "summary": null,
