@@ -1,0 +1,36 @@
+---
+published: true
+---
+# OSCP Prep by fg0x0
+
+### Scanning
+
+```
+rustscan -a 192.168.1.1 --ulimit 5000
+sudo nmap -sV -T4 -p- -O -oN nmap bravery
+-sV determine service/version info
+-T4 for faster execution
+-p- scan all ports
+-O identify Operating System
+-oN output to file, in our case it’s called nmap
+```
+
+
+### Web Exploitation
+
+### Sqlmap
+
+```
+sqlmap -r sql.txt --dbs
+sqlmap -r sql.txt -D Staff --dump
+sqlmap -r sql.txt -D users --dump
+
+```
+
+### Password Cracking
+
+##### Hydra
+
+```
+hydra -L users.txt -P passwords.txt ssh://192.168.56.142:22 -t 10 -I
+```
