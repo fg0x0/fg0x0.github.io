@@ -3,6 +3,22 @@ published: true
 ---
 # OSCP Prep by fg0x0
 
+### Open Services
+
+```
+ss -tlpn
+```
+
+
+### SSH Tunnel үүсгэх
+
+```
+ssh -L 5901:127.0.0.1:5901 thomas@192.168.1.123 -p 65111
+nmap -sC -sV -A -p5901 127.0.0.1
+lsof -i:5901
+vncviewer -passwd .remote_secret localhost:5901
+```
+
 ### Scanning
 ```
 rustscan -a 192.168.1.1 --ulimit 5000
@@ -15,6 +31,12 @@ sudo nmap -sV -T4 -p- -O -oN nmap bravery
 ```
 <br>
 ### Web Exploitation
+
+##### MySQL
+
+```
+mysql -h 192.168.19.131 -u<username> -p -D<database_name>
+```
 <br>
 ##### Directory Bruteforcing
 <br>
@@ -89,12 +111,3 @@ hydra -L users.txt -P passwords.txt ssh://192.168.56.142:22 -t 10 -I
 ```
 <br>
 ##### Hashcat
-
-
-
-
-
-
-
-
-
