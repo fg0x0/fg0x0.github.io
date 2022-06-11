@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Wordpress вэбсайтыг хакдах нь - 1
 
